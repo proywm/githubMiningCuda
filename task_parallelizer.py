@@ -54,7 +54,7 @@ def main():
     hostnames = ssh_hosts
     split_data = split_csv_data(input_csv, num_nodes, hostnames, split_files_dir)
 
-    destination_path = f"/users/{username}/github_miner/{split_files_dir}"  # Set your destination path here
+    destination_path = f"/users/{username}/githubMiningCuda/{split_files_dir}"  # Set your destination path here
 
     copy_files_to_nodes(ssh_hosts, split_data, destination_path, username)
 

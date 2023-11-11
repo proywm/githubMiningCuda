@@ -26,7 +26,7 @@ pip3 install pandas
 ### Clone the miner scripts
 Run the cloning command
 ```
-git clone https://github.com/ssmtariq/github_miner.git
+git clone https://github.com/proywm/githubMiningCuda.git
 ```
 Change the directory `cd github_miner`
 
@@ -89,7 +89,7 @@ parallel-ssh -A -i -h sshhosts 'pip3 show pydriller && pip3 show pygit2'
 
 ### Clone the github_miner repository in all nodes to upload the commit analysis results
 ```
-parallel-ssh -i -h sshhosts 'git clone https://github.com/ssmtariq/github_miner.git'
+parallel-ssh -i -h sshhosts 'git clone https://github.com/proywm/githubMiningCuda.git'
 ```
 
 ### Run script to split and distribute the input files among the nodes
@@ -98,7 +98,7 @@ python3.8 task_parallelizer.py your_repo_list your_username
 ```
 For example
 ```
-python3.8 task_parallelizer.py repository_lists/github_repositories_Python_10302023.csv ssmtariq
+python3.8 task_parallelizer.py repository_lists/github_repositories_Python_10302023.csv probirr
 ```
 
 ### Execute the analyzer on multiple nodes in parallel

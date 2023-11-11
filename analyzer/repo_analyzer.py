@@ -4,7 +4,7 @@ import csv
 import os
 import re
 
-root_dir = "github_miner/analyzer"
+root_dir = "githubMiningCuda/analyzer"
 file_type = '.cu'
 published_commits = 0
 commit_counter = 0

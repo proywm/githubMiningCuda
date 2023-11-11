@@ -54,7 +54,7 @@ def git_operations(repo_dir, merged_csv_base, PAT):
         subprocess.run(["git", "pull"], check=True)
         subprocess.run(["git", "add", merged_csv_base + "_*.csv"], check=True)
         subprocess.run(["git", "commit", "-m", "Add result from master node"], check=True)
-        repository_url = f"https://{PAT}@github.com/ssmtariq/github_miner.git"
+        repository_url = f"https://{PAT}@github.com/proywm/githubMiningCuda.git"
         subprocess.run(["git", "push", repository_url], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Error in Git operations: {e}")
@@ -72,7 +72,7 @@ def main():
     sshhosts_file = "sshhosts"
 
     # Directory to copy CSV files from each node
-    source_dir = "github_miner/analyzer/results"
+    source_dir = "githubMiningCuda/analyzer/results"
 
     # Directory to store the merged CSV file
     destination_dir = "analysis_results"
@@ -105,7 +105,7 @@ def main():
 
     # Perform Git operations
     merged_csv_base = os.path.splitext(merged_csv)[0]
-    git_operations("github_miner", merged_csv_base, PAT)
+    git_operations("githubMiningCuda", merged_csv_base, PAT)
 
 if __name__ == "__main__":
     main()

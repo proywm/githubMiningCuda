@@ -1,0 +1,16 @@
+see.*speedup|see.*speedups|see.*speed-up|seeing.*speedup|seeing.*speedups|seeing.*speed-up|sees.*speedup|sees.*speedups|sees.*speed-up|observe.*speedup|observe.*speedups|observe.*speed-up|observes.*speedup|observes.*speedups|observes.*speed-up|observed.*speedup|observed.*speedups|observed.*speed-up|observing.*speedup|observing.*speedups|observing.*speed-up
+vector.*improve|vector.*improves|vector.*improving|vector.*improved|vectorize.*improve|vectorize.*improves|vectorize.*improving|vectorize.*improved|vectorzing.*improve|vectorzing.*improves|vectorzing.*improving|vectorzing.*improved|vectorized.*improve|vectorized.*improves|vectorized.*improving|vectorized.*improved
+fast.*memory|faster.*memory
+universal.*intrinsics|universal.*intrinsics
+backend.*performance|backend.*performances
+speedup.*added|speedups.*added|speed-up.*added
+fixed.*fast|fixes.*fast #better to remove this seed as 
+performance.*problem
+more.*efficient
+performance.*bug|performance.*fix|performance.*optimization|performance.*inefficien|performance.*bottleneck|performance.*improve
+large.*performance|large.*performances
+better.*performance|better.*performances
+patch.*improve|patch.*improves|patch.*improving|patch.*improved
+fixed.*performance|fixed.*performances
+improve.*performance|improve.*performances|improves.*performance|improves.*performances|improving.*performance|improving.*performances|improved.*performance|improved.*performances 
+optimize.*performance|optimize.*performances|optimizes.*performance|optimizes.*performances|optimized.*performance|optimized.*performances|optimizing.*performance|optimizing.*performances

@@ -98,13 +98,13 @@ python3.8 task_parallelizer.py your_repo_list your_username
 ```
 For example
 ```
-python3.8 task_parallelizer.py repository_lists/github_repositories_Python_10302023.csv probirr
+python3.8 task_parallelizer.py repository_lists/github_repositories_*.csv probirr
 ```
 
 ### Execute the analyzer on multiple nodes in parallel
 Run the following command to execute the analyzer using parallel-ssh. If asked for password then skip by pressing enter key.
 ```
-parallel-ssh -A -i -h sshhosts 'python3.8 github_miner/analyzer/repo_analyzer.py'
+parallel-ssh -A -i -h sshhosts 'python3.8 githubMiningCuda/analyzer/repo_analyzer.py'
 ```
 
 ## 4. Collect the results from worker nodes and upload to GitHub

@@ -68,7 +68,9 @@ def analyze_repository(repo_url, patterns, output_csv_file):
             # Construct the commit URL
             commit_url = f"{repo_url}/commit/{commit.hash}"
             commit_data.append([commit.project_name, commit_url, commit.insertions, commit.deletions, commit.lines, 
-                                 commit.files, original_codes, modified_codes, list(modified_files)])
+                                 commit.files])
+            # commit_data.append([commit.project_name, commit_url, commit.insertions, commit.deletions, commit.lines, 
+            #                     commit.files, original_codes, modified_codes, list(modified_files)])
             # commit_data.append([commit.project_name, commit_url, commit.hash, commit.msg, commit.committer_date, commit.author.name, commit.insertions, 
             #                     commit.deletions, commit.lines, commit.files, modified_files, original_codes, modified_codes, methods_before, methods_after])
             processed_commits.add(commit.hash)
@@ -95,8 +97,9 @@ def write_commit_analysis_to_csv(output_csv_file, commit_data):
         writer = csv.writer(output_file)
         if output_file.tell() == 0:
             # If the file is empty, write the header row
-            writer.writerow(["Project Name", "Commit URL", "Additions", "Deletions", "LoC Changed", "LoC changed in Python Files", "LoC Related to Concurrency", "LOC Ratio", "Total Files Changed", "Python Files Changed", "Python Files that Matched Keywords"])
+            #writer.writerow(["Project Name", "Commit URL", "Additions", "Deletions", "LoC Changed", "LoC changed in Python Files", "LoC Related to Concurrency", "LOC Ratio", "Total Files Changed", "Python Files Changed", "Python Files that Matched Keywords"])
             # writer.writerow(["Project Name", "Commit URL", "Commit Hash", "Message", "Commit Date", "Author Name", "Additions", "Deletions", "Lines changed", "Files Changed", "Modified files", "Original Code", "Modified Code", "Methods Before", "Methods After"])
+            writer.writerow(["Project Name", "Commit URL", "Commit Hash", "Message", "Commit Date", "Author Name", "Additions", "Deletions", "Lines changed", "Files Changed"])
         # Write the commit data
         writer.writerows(commit_data)
 

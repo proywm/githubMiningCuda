@@ -106,8 +106,9 @@ def write_commit_analysis_to_csv(output_csv_file, commit_data):
 def main():
     # Generate the output file name with the specified prefix and IP address
     host_ip = socket.gethostbyname(socket.gethostname())
+    date = datetime.date.today().strftime("%m%d%Y")
     # Define the input CSV file name
-    input_csv_file = os.path.join(root_dir, f"github_repositories_{host_ip}.csv")
+    input_csv_file = os.path.join(root_dir, f"github_repositories_{host_ip}_{date}.csv")
     
     repo_urls = read_repository_urls_from_csv(input_csv_file)
     print(repo_urls)

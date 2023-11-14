@@ -3,6 +3,7 @@ from pydriller import Repository
 import csv
 import os
 import re
+import datetime
 
 root_dir = "githubMiningCuda/analyzer"
 file_type = '.cu'

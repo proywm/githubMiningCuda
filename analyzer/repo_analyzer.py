@@ -109,12 +109,12 @@ def main():
     host_ip = socket.gethostbyname(socket.gethostname())
     date = datetime.date.today().strftime("%m%d%Y")
     # Define the input CSV file name
-    input_csv_file = os.path.join(root_dir, f"github_repositories_{host_ip}_{date}.csv")
+    input_csv_file = os.path.join(root_dir, f"github_repositories_{host_ip}.csv")
     
     repo_urls = read_repository_urls_from_csv(input_csv_file)
     print(repo_urls)
     # Specify the output file path inside the 'results' directory
-    output_csv_file = os.path.join(results_dir, f"github_repo_analysis_result_{host_ip}.csv")
+    output_csv_file = os.path.join(results_dir, f"github_repo_analysis_result_{date}_{host_ip}.csv")
     patterns = load_patterns_from_csv(os.path.join(root_dir, f"patterns.csv"))
                                       
     for repo_url in repo_urls:

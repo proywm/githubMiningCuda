@@ -33,7 +33,7 @@ def split_csv_data(input_csv, num_nodes, hostnames, split_files_dir):
 def copy_files_to_nodes(ssh_hosts, data_to_copy, destination_path, user):
     for i, host in enumerate(ssh_hosts):
         remote = user + "@" + host + ":" + destination_path
-        print(f"Copying {data_to_copy[i]} to {host}...")
+        print(f"Copying {data_to_copy[i]} to {host} {remote} ...")
         subprocess.run(["scp", data_to_copy[i], remote])
         print(f"{data_to_copy[i]} copied to {host}")
 

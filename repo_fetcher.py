@@ -4,8 +4,19 @@ import csv
 import argparse
 import datetime
 import os
+from datetime import datetime, timedelta
+from dateutil.relativedelta import relativedelta
 
-def build_github_query(language=None, stars=None, forks=None, last_commit=None):
+
+# Example usage
+start_date = datetime.strptime("2010-01-01", "%Y-%m-%d") # GitHub's inception
+end_date = datetime.today() - relativedelta(months=6)
+
+def daterange(start_date, end_date):
+    for n in range(int(int((end_date - start_date).days)/15)):
+        yield start_date + timedelta(n*15)
+        
+def build_github_query(language=None, stars=None, forks=None, last_commit=None, start_date=None, end_date=None, fork=None):
     """
     Build a GitHub search query based on provided filters.
 
@@ -26,11 +37,15 @@ def build_github_query(language=None, stars=None, forks=None, last_commit=None):
         query_parts.append(f'forks:>{forks}')
     if last_commit:
         query_parts.append(f'pushed:>{last_commit}')
+    if start_date and end_date:
+        query_parts.append(f'created:{start_date}..{end_date}')
+    if fork:
+        query_parts.append(f'fork:{fork}')
     #query_parts.append(f'sort:stars')
     #query_parts.append(f'order:desc')
     return ' '.join(query_parts)
 
-def search_github_repositories(query, result_file, result_limit=None):
+def search_github_repositories(query, writer, result_limit=None, idx =1 ):
     """
     Search GitHub repositories based on the provided query and retrieve repository information.
 
@@ -40,27 +55,29 @@ def search_github_repositories(query, result_file, result_limit=None):
     """
 
     base_url = 'https://api.github.com/search/repositories'
-    params = {'q': query, 'per_page': 1000, 'page': 1, 'sort':'stars'}  # Adjust as per_page needed for your use case and page starts with 1
+    params = {'q': query, 'per_page': 100, 'page': 1, 'sort':'stars'}  # Adjust as per_page needed for your use case and page starts with 1
     
     repositories = []
     remaining_results = result_limit if result_limit else float('inf')
-    idx = 1  # Initialize the serial number
-
-    with open(result_file, 'w', newline='') as csvfile:
-        fieldnames = ['Serial No', 'Name', 'Description', 'Stars', 'Forks', 'Last Commit', 'Repository URL']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        
-        while remaining_results > 0:
-            response, new_repositories = fetch_github_repositories(base_url, params, remaining_results)
-            if response is None or new_repositories is None:
-                break
-
-            repositories.extend(new_repositories)
-
-            remaining_results, idx = process_github_repositories(new_repositories, remaining_results, idx, writer, response, params)
     
-    return repositories
+
+    last_page_number = 0
+    
+    while remaining_results > 0:
+        if params['page'] == last_page_number :
+            break 
+        last_page_number = params['page']
+        print(f"Page being processed: {last_page_number}")
+        response, new_repositories = fetch_github_repositories(base_url, params, remaining_results)
+        if response is None or new_repositories is None:
+            print(f"Received no response or no new_repos")
+            break
+
+        repositories.extend(new_repositories)
+
+        remaining_results, idx = process_github_repositories(new_repositories, remaining_results, idx, writer, response, params)
+    
+    return repositories, idx
 
 def fetch_github_repositories(base_url, params, remaining_results):
     """
@@ -124,7 +141,9 @@ def process_github_repositories(new_repositories, remaining_results, idx, writer
 
     if 'next' in response.links and remaining_results > 0:
         params['page'] += 1
+        print(f"Incrementing page count ..")
         # print(f"Rate Limit - Remaining: {response.headers['X-RateLimit-Remaining']}, Limit: {response.headers['X-RateLimit-Limit']}")
+    
 
     return remaining_results, idx
 
@@ -158,18 +177,25 @@ def main():
     parser.add_argument('--result_limit', type=int, default=None, help='Result limit')
     args = parser.parse_args()
 
-    # Build the GitHub search query based on provided filter parameters
-    query = build_github_query(args.language, args.stars, args.forks, args.last_commit)
-
     # Create a 'results' directory if it doesn't exist
     results_dir = f'repository_lists'
     if not os.path.exists(results_dir):
         os.mkdir(results_dir)
-    date = datetime.date.today().strftime("%m%d%Y")
+    date = datetime.today().strftime("%m%d%Y")
     result_file = f'{results_dir}/github_repositories_{args.language}_{date}.csv'
-
-    # Search GitHub repositories and store the results in a CSV file
-    search_github_repositories(query, result_file, args.result_limit)
-
+    with open(result_file, 'w', newline='') as csvfile:
+        fieldnames = ['Serial No', 'Name', 'Description', 'Stars', 'Forks', 'Last Commit', 'Repository URL']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        idx = 1
+        for single_date in daterange(start_date, end_date):
+            # Build the GitHub search query based on provided filter parameters
+            s = single_date.strftime("%Y-%m-%d")
+            e = (single_date + timedelta(days=14)).strftime("%Y-%m-%d")
+            print(f"Search date range: {s} - {e}. Current idenx count: {idx}")    
+            query = build_github_query(args.language, args.stars, args.forks, args.last_commit, single_date.strftime("%Y-%m-%d"), (single_date + timedelta(days=14)).strftime("%Y-%m-%d"), "false")
+            # Search GitHub repositories and store the results in a CSV file
+            repo, idx = search_github_repositories(query, writer, args.result_limit, idx)
+    print(f"Ending repo search.... ")
 if __name__ == '__main__':
     main()

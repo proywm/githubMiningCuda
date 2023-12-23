@@ -1,0 +1,832 @@
+Serial No,Name,Description,Stars,Forks,Last Commit,Repository URL
+1,xGPU,A GPU based FX correlator for radio astronomy,31,25,2018-06-21T17:39:49Z,https://github.com/GPU-correlators/xGPU
+2,HOTlab,Software package for holographic optical trapping (HOT) released under GPL and LGPL. Requires a CUDA compatible GPU and LabVIEW,11,7,2022-07-02T02:07:32Z,https://github.com/MartinPersson/HOTlab
+3,CCL-GPU,GPU Implementation of some Connected Component Labeling Algorithms,19,4,2020-11-28T05:25:45Z,https://github.com/victoroliv2/CCL-GPU
+4,cuda-PHDSLAM,PHD Filter SLAM with CUDA,22,10,2014-07-17T22:14:55Z,https://github.com/cheesinglee/cuda-PHDSLAM
+5,cukd,WIP for a k-d-tree implementation in CUDA,35,4,2023-03-22T11:11:41Z,https://github.com/unvirtual/cukd
+6,Alenka,GPU database engine,1164,126,2017-01-30T18:30:28Z,https://github.com/antonmks/Alenka
+7,nmf-cuda,A CUDA implementation of non-negative matrix factorization for GPUs.,34,9,2018-02-27T23:49:03Z,https://github.com/ebattenberg/nmf-cuda
+8,ccl,Connected Component Labeling.,43,17,2020-07-12T11:47:42Z,https://github.com/foota/ccl
+9,ccogs,Cosmological Calculations on GPUS. A collection of code used to perform calculations use in Cosmology studies and written for GPUs. ,14,4,2015-07-10T04:35:30Z,https://github.com/djbard/ccogs
+10,cudahandbook,Source code that accompanies The CUDA Handbook.,463,185,2022-04-27T23:49:27Z,https://github.com/ArchaeaSoftware/cudahandbook
+11,gmatrix,R package for unleashing the power of NVIDIA GPU's,16,5,2016-06-04T21:07:49Z,https://github.com/njm18/gmatrix
+12,cs344,Introduction to Parallel Programming class code,1234,1127,2022-06-27T11:56:37Z,https://github.com/udacity/cs344
+13,cub,[ARCHIVED] Cooperative primitives for CUDA C++. See https://github.com/NVIDIA/cccl ,1613,491,2023-10-09T17:44:21Z,https://github.com/NVIDIA/cub
+14,kNN-CUDA,Fast k nearest neighbor search using GPU,472,106,2018-08-06T08:52:37Z,https://github.com/vincentfpgarcia/kNN-CUDA
+15,cudpp,CUDA Data Parallel Primitives Library,405,96,2018-11-09T00:21:23Z,https://github.com/cudpp/cudpp
+16,gpufs,GPUfs - File system support for NVIDIA GPUs,82,36,2018-11-26T10:38:18Z,https://github.com/gpufs/gpufs
+17,CUDA_Floyd_Warshall_,CUDA implementation of the Floyd-Warshall All pairs shortest path graph algorithm(with path reconstruction),34,14,2014-09-18T02:20:22Z,https://github.com/OlegKonings/CUDA_Floyd_Warshall_
+18,vpath,A Small Volumetric CUDA Path Tracer,15,2,2014-11-15T14:16:33Z,https://github.com/seifeddinedridi/vpath
+19,GooFit,"Code repository for the massively-parallel framework for maximum-likelihood fits, implemented in CUDA/OpenMP",121,41,2023-12-18T21:33:27Z,https://github.com/GooFit/GooFit
+20,cuda,Just some examples of using CUDA I have put together,35,20,2023-09-20T14:07:13Z,https://github.com/teknoman117/cuda
+21,cuda-convnet,"My fork of Alex Krizhevsky's cuda-convnet from 2013 where I added dropout, among other features.",246,147,2015-01-23T20:38:44Z,https://github.com/dnouri/cuda-convnet
+22,NonSeparableFilteringCUDA,"Code for non-separable filtering in 2, 3 and 4 dimensions with the CUDA programming language.",11,6,2017-02-15T15:43:03Z,https://github.com/wanderine/NonSeparableFilteringCUDA
+23,qe-gpu-plugin,Plug-in to accelerate Quantum ESPRESSO v5 using NVIDIA GPU,30,14,2017-02-23T00:06:36Z,https://github.com/fspiga/qe-gpu-plugin
+24,chrono-flex,A parallel (GPU) implementation of the gradient-deficient beam element using the Absolute Nodal Coordinate Formulation (ANCF).,16,9,2015-07-07T16:20:56Z,https://github.com/projectchrono/chrono-flex
+25,cutorch,A CUDA backend for Torch7,337,211,2017-09-11T21:54:52Z,https://github.com/torch/cutorch
+26,cunn,,214,176,2019-08-27T00:44:54Z,https://github.com/torch/cunn
+27,nvbio-gpl,NVBIO is a library of reusable components designed to accelerate bioinformatics applications using CUDA.,58,11,2014-08-21T16:09:18Z,https://github.com/NVlabs/nvbio-gpl
+28,Lyra,,46,18,2017-08-20T13:59:51Z,https://github.com/leocalm/Lyra
+29,inplace,CUDA and OpenMP implementations of C2R/R2C inplace transposition,43,7,2015-02-10T23:27:14Z,https://github.com/bryancatanzaro/inplace
+30,nbody,Portable auto-vectorizable n-body benchmark,15,1,2023-12-22T10:27:06Z,https://github.com/tycho/nbody
+31,cudadtw,GPU-Suite,80,13,2016-08-25T12:34:42Z,https://github.com/gravitino/cudadtw
+32,clusterNet,Deep neural network framework for multiple GPUs,29,15,2015-06-20T09:47:19Z,https://github.com/TimDettmers/clusterNet
+33,YacuDecu,GPU Deconvolution Library with C and Matlab API for nVidia GPUs,21,2,2019-03-02T20:53:29Z,https://github.com/bobpepin/YacuDecu
+34,convnet-noisy,convolutional code for feed-forward noise model,14,7,2014-11-26T18:48:47Z,https://github.com/tesatory/convnet-noisy
+35,CudaJacobi,CUDA implementation of the Jacobi method,24,13,2015-03-03T12:23:29Z,https://github.com/MMichel/CudaJacobi
+36,halloc,A fast and highly scalable GPU dynamic memory allocator,102,8,2015-03-11T19:37:52Z,https://github.com/canonizer/halloc
+37,gpu-edu-workshops,Code examples for CUDA and OpenACC,35,18,2017-03-01T22:14:51Z,https://github.com/jnbntz/gpu-edu-workshops
+38,presentations,Slides and demo code for past presentations,11,2,2022-02-17T00:33:35Z,https://github.com/wireghoul/presentations
+39,CuSha,CuSha is a CUDA-based vertex-centric graph processing framework that uses G-Shards and CW representations. ,49,19,2015-11-17T23:27:43Z,https://github.com/farkhor/CuSha
+40,jetsonSIFT,A CUDA-accelerated SIFT implementation.,11,6,2015-02-01T23:18:17Z,https://github.com/alexanderkoumis/jetsonSIFT
+41,convnet,A GPU implementation of Convolutional Neural Nets in C++,504,236,2020-10-01T21:15:35Z,https://github.com/TorontoDeepLearning/convnet
+42,cuIBM,cuIBM: a GPU-based immersed boundary method code.,83,48,2023-03-26T04:54:43Z,https://github.com/barbagroup/cuIBM
+43,cuda-floyd_warshall,CUDA implementation of the Blocked Floyd Warshall All pairs shortest path graph algorithm,34,14,2018-03-31T17:32:56Z,https://github.com/MTB90/cuda-floyd_warshall
+44,adcensus,,31,18,2014-06-09T16:13:36Z,https://github.com/jzbontar/adcensus
+45,skiplist_cuda,A parallel (CUDA) implementation of skiplist,13,3,2019-01-24T18:30:45Z,https://github.com/hcho3/skiplist_cuda
+46,cuda-convnet2.torch,Torch7 bindings for cuda-convnet2 kernels!,40,16,2016-08-26T14:53:05Z,https://github.com/soumith/cuda-convnet2.torch
+47,im2col,image to column,31,16,2014-07-15T02:31:04Z,https://github.com/OpenHero/im2col
+48,hybrid_BC,Hybrid methods for Parallel Betweenness Centrality on the GPU,23,10,2018-12-20T18:31:34Z,https://github.com/Adam27X/hybrid_BC
+49,cuda-mergesort,,18,8,2014-08-29T21:28:56Z,https://github.com/kevin-albert/cuda-mergesort
+50,matconvnet,MatConvNet: CNNs for MATLAB,1379,758,2021-12-21T11:28:11Z,https://github.com/vlfeat/matconvnet
+51,cgls_cuda,Conjugate Gradient for Least Squares in CUDA,48,14,2015-08-31T09:14:52Z,https://github.com/foges/cgls_cuda
+52,Totem,A graph processing engine for hybrid CPU and GPU platforms,37,15,2019-02-07T16:38:37Z,https://github.com/netsyslab/Totem
+53,Doubly_Stochastic_Gradients,Code for doubly stochastic gradients,24,12,2014-10-21T14:30:24Z,https://github.com/zixu1986/Doubly_Stochastic_Gradients
+54,gpu_dfcc,GPU-accelerated coupled cluster with density fitting,17,4,2018-06-26T23:22:22Z,https://github.com/edeprince3/gpu_dfcc
+55,GPU_BADMM_MT,Bregman ADMM for mass transportation on GPU,13,6,2014-12-04T19:32:26Z,https://github.com/anteagle/GPU_BADMM_MT
+56,int_fastdiv,Fast integer division with divisor not known at compile time. To be used primarily in CUDA kernels.,65,9,2015-11-04T11:53:56Z,https://github.com/milakov/int_fastdiv
+57,word2vec_cbow,this is a high performance cuda porting of cbow model of word2vec,43,41,2014-09-14T02:45:26Z,https://github.com/ChenglongChen/word2vec_cbow
+58,Frog,Frog is Asynchronous Graph Processing on GPU with Hybrid Coloring Model. The fundamental idea is based on Pareto principle (or 80-20 rule) about coloring algorithms as we observed through masses of real graph coloring cases.,37,23,2021-05-29T02:37:24Z,https://github.com/CGCL-codes/Frog
+59,firepony,Efficient base quality score recalibrator for NGS data,24,5,2015-11-28T04:03:01Z,https://github.com/broadinstitute/firepony
+60,kmeans_cuda,A high performance implementation of kmeans algorithm with cuda ,19,12,2014-09-07T13:01:34Z,https://github.com/fengChenHPC/kmeans_cuda
+61,variational-depth-from-focus,"Implementation of ""Variational Depth from Focus Reconstruction"" [Moeller 2015]",55,22,2020-02-02T19:11:47Z,https://github.com/adrelino/variational-depth-from-focus
+62,Voxel-based-Rendering-,CIS565 Final Project,14,4,2014-12-08T02:09:42Z,https://github.com/wang1262/Voxel-based-Rendering-
+63,CUDA-CNN,CNN accelerated by cuda. Test on mnist and finilly get 99.76%,180,88,2017-10-15T12:56:13Z,https://github.com/zhxfl/CUDA-CNN
+64,convnet,,14,13,2014-09-23T18:35:55Z,https://github.com/stephenbalaban/convnet
+65,fbcuda,Facebook's CUDA extensions.,282,64,2019-03-27T22:14:19Z,https://github.com/facebookarchive/fbcuda
+66,SCI-Solver_FEM,SCI-Solver_FEM is a C++/CUDA library written to solve an FEM linear system. It is designed to solve the FEM system quickly by using GPU hardware.,79,27,2019-02-22T18:33:47Z,https://github.com/SCIInstitute/SCI-Solver_FEM
+67,Octree-SLAM,Large octree map construction and rendering with CUDA and OpenGL,56,18,2015-06-13T16:59:27Z,https://github.com/dkotfis/Octree-SLAM
+68,whippletree,"Whippletree, a novel approach to scheduling dynamic, irregular workloads on the GPU",19,8,2015-11-24T10:33:32Z,https://github.com/apc-llc/whippletree
+69,SCI-Solver_Level-Set,SCI-Solver_Level-Set is a C++/CUDA library written to solve a system of level set equations on unstructured meshes. It is designed to solve the equations quickly by using GPU hardware.,18,12,2019-08-19T18:57:50Z,https://github.com/SCIInstitute/SCI-Solver_Level-Set
+70,SCI-Solver_Eikonal,"SCI-Solver_Eikonal is a C++/CUDA library written to solve the Eikonal equation on triangular and tetrahedral meshes. It uses the fast iterative method (FIM) to solve efficiently, and uses GPU hardware.",17,12,2019-02-22T18:35:15Z,https://github.com/SCIInstitute/SCI-Solver_Eikonal
+71,cuda-convnet2,Custom fork containing our own python backend for integration into neon,15,9,2023-01-03T22:54:02Z,https://github.com/NervanaSystems/cuda-convnet2
+72,Weft,A Sound and Complete Verification Tool for Warp-Specialized GPU Kernels,13,3,2015-06-17T08:30:19Z,https://github.com/lightsighter/Weft
+73,CUDA-Utilities,Utilities for CUDA programming,36,20,2019-05-17T11:58:40Z,https://github.com/OrangeOwlSolutions/CUDA-Utilities
+74,THOR,Atmospheric fluid dynamics solver optimized for GPUs.,37,11,2022-02-25T14:58:54Z,https://github.com/exoclime/THOR
+75,md5-cracker,Simple MD5 cracker (CUDA),24,10,2015-01-31T12:23:27Z,https://github.com/iryont/md5-cracker
+76,libomptarget,,18,10,2015-10-15T14:04:25Z,https://github.com/clang-omp/libomptarget
+77,cgx,"UltraFast GPU Grammar eXtractor for Machine Translation (He et al., TACL 2015 & NAACL 2013)",12,1,2015-06-19T00:21:11Z,https://github.com/hohoCode/cgx
+78,Thrust,,23,6,2017-02-28T09:52:30Z,https://github.com/OrangeOwlSolutions/Thrust
+79,Linear-Algebra,,20,17,2018-11-13T11:00:34Z,https://github.com/OrangeOwlSolutions/Linear-Algebra
+80,cuda_inpainting,web service for image impainting,14,3,2015-07-22T23:48:29Z,https://github.com/fuweixiao/cuda_inpainting
+81,inpainting-cuda,CUDA implementation of Image Completion Using Global Optimization(Nikos Komodakis and Georgios Tziritas),13,5,2020-03-19T08:36:55Z,https://github.com/geraint0923/inpainting-cuda
+82,CUDA_by_practice,CUDA by practice,95,36,2020-01-07T03:56:35Z,https://github.com/eegkno/CUDA_by_practice
+83,Medusa,Medusa: Building GPU-based Parallel Sparse Graph Applications with Sequential C/C++ Code,59,19,2020-10-17T22:53:12Z,https://github.com/Xtra-Computing/Medusa
+84,gpufilter,GPU Recursive Filtering,41,17,2023-09-01T13:16:30Z,https://github.com/andmax/gpufilter
+85,cupoisson,CUDA implementation of the 2D fast Poisson solver,11,8,2022-02-23T09:59:50Z,https://github.com/3cHeLoN/cupoisson
+86,nvParse,"Fast, gpu-based CSV parser",553,29,2017-01-23T06:22:10Z,https://github.com/antonmks/nvParse
+87,cuda-convnet-for-hashing,started from Alex's code on google code,37,13,2015-04-28T07:49:03Z,https://github.com/zhaofang0627/cuda-convnet-for-hashing
+88,GPU-Sweep-Prune-Collision-Detection,"Real-time Collision Culling of a Million Bodies on  Graphics Processing Units. SIGGRAPH ASIA, Dec. 2010",14,4,2015-03-26T16:20:49Z,https://github.com/liufububai/GPU-Sweep-Prune-Collision-Detection
+89,FLAMEGPU2,FLAME GPU 2 is a GPU accelerated agent based modelling framework for CUDA C++ and Python,82,15,2023-12-16T12:10:30Z,https://github.com/FLAMEGPU/FLAMEGPU2
+90,webgpu,"webgpu GPU code implementation, including CUDA, OpenCL, OpenACC and C++ AMP",14,6,2015-04-07T04:57:59Z,https://github.com/XimingCheng/webgpu
+91,cuda-convnet2,Automatically exported from code.google.com/p/cuda-convnet2,745,288,2015-12-03T03:46:14Z,https://github.com/akrizhevsky/cuda-convnet2
+92,cudnn-training,A CUDNN minimal deep learning training code sample using LeNet.,251,92,2023-07-30T01:48:16Z,https://github.com/tbennun/cudnn-training
+93,cuda_bitcoin_miner,CUDA Based GPU Bitcoin Miner,32,7,2015-05-08T01:51:55Z,https://github.com/geedo0/cuda_bitcoin_miner
+94,GeneticAlgorithmTSP_CUDA,A genetic algorithm to find optimal solutions for TSP (Travelling Salesman Problem) using the CUDA Architecture (GPU),16,8,2015-08-21T20:40:16Z,https://github.com/tdietert/GeneticAlgorithmTSP_CUDA
+95,parallel,MPI programs shared here !,15,7,2015-05-05T00:15:57Z,https://github.com/antiDigest/parallel
+96,smallpt-parallel-bvh-gpu,A GPU implementation of smallpt (http://www.kevinbeason.com/smallpt/) with Bounding Volume Hierarchy (BVH) tree. ,42,3,2015-05-12T00:01:12Z,https://github.com/andrewwuan/smallpt-parallel-bvh-gpu
+97,cuda-collisions,GPU implementation of collision detection via spatial subdivision,26,8,2021-01-01T04:37:41Z,https://github.com/deeptoaster/cuda-collisions
+98,CTBangBang,"Fast, lightweight, GPU-based, CT Image Reconstruction",23,26,2020-05-12T01:02:04Z,https://github.com/johnmarianhoffman/CTBangBang
+99,popsift,PopSift is an implementation of the SIFT algorithm in CUDA.,395,106,2023-07-05T10:11:11Z,https://github.com/alicevision/popsift
+100,CubicInterpolationCUDA,GPU accelerated pre-filtered cubic b-spline interpolation using CUDA,103,26,2017-02-27T15:52:51Z,https://github.com/DannyRuijters/CubicInterpolationCUDA
+101,cuStreamComp,Efficient CUDA Stream Compaction Library,31,6,2023-06-09T00:14:46Z,https://github.com/knotman90/cuStreamComp
+102,SNCC_GPU,compute disparity map from stereo pair using SNCC matching function (GPU and CPU code provided),12,9,2015-06-16T20:39:15Z,https://github.com/chloelle/SNCC_GPU
+103,professional-cuda-c-programming,,318,136,2015-07-05T19:20:49Z,https://github.com/deeperlearning/professional-cuda-c-programming
+104,GpuTriangleCounting,Triangle Counting for the GPU using CUDA.,12,3,2015-11-05T21:31:50Z,https://github.com/ogreen/GpuTriangleCounting
+105,General-CUDA-programming,,41,12,2018-02-03T10:00:10Z,https://github.com/OrangeOwlSolutions/General-CUDA-programming
+106,managed_allocator,A C++ allocator based on cudaMallocManaged,23,4,2018-11-19T16:14:11Z,https://github.com/jaredhoberock/managed_allocator
+107,CUDA-dilation-and-erosion-filters,A CUDA implementation of the dilation and erosion filters showing several optimizations to speed up the processing.,42,8,2015-08-31T08:30:55Z,https://github.com/mompes/CUDA-dilation-and-erosion-filters
+108,accelerInt,Library of tested and verified ODE solvers for chemical kinetics,20,7,2019-05-31T12:51:31Z,https://github.com/SLACKHA/accelerInt
+109,AES-Cuda,Simple AES implementation in NVIDIA CUDA,19,4,2015-08-23T03:17:11Z,https://github.com/cartermc24/AES-Cuda
+110,mc-cnn,Stereo Matching by Training a Convolutional Neural Network to Compare Image Patches,689,235,2018-01-25T21:47:39Z,https://github.com/jzbontar/mc-cnn
+111,matrix-cuda,matrix multiplication in CUDA,102,64,2023-08-10T16:16:28Z,https://github.com/lzhengchun/matrix-cuda
+112,flattened-cnn,Flattened convolutional neural networks (1D convolution modules for Torch nn),61,19,2015-09-17T17:08:01Z,https://github.com/jhjin/flattened-cnn
+113,chmm,CUDA implementation of hidden Markov model training and classification,28,11,2017-12-10T00:41:57Z,https://github.com/chuan/chmm
+114,LDPC-CC_Pipeline_Decoder,This is a CUDA application for LDPC-CC Decoder,13,8,2015-09-28T02:25:45Z,https://github.com/Haybla/LDPC-CC_Pipeline_Decoder
+115,yalla,Spheroid models of morphogenesis for the GPU.,34,8,2023-11-03T16:43:04Z,https://github.com/germannp/yalla
+116,hillisp,CUDA parallel lisp toy inspired by Connection Machines,11,2,2016-06-25T02:49:08Z,https://github.com/michelp/hillisp
+117,OpenCUDA,,231,107,2018-01-14T14:24:53Z,https://github.com/LitLeo/OpenCUDA
+118,Weighted_Softmax_Loss,Weighted Softmax Loss Layer for Caffe,89,47,2018-08-31T03:18:16Z,https://github.com/shicai/Weighted_Softmax_Loss
+119,Matrix-Inversion-with-CUDA,I implemented a parallel algorithm for matrix inversion based on Gauss-Jordan elimination. ,42,21,2015-11-17T14:19:05Z,https://github.com/ZhengzhongSun/Matrix-Inversion-with-CUDA
+120,gpuprec,gpuprec: Extended-Precision Libraries on GPUs,32,7,2016-01-09T07:55:45Z,https://github.com/lumianph/gpuprec
+121,GPU-path-tracing-with-CUDA-tutorial-2,Basic CUDA path tracer with triangle mesh support,46,12,2020-02-28T11:02:03Z,https://github.com/straaljager/GPU-path-tracing-with-CUDA-tutorial-2
+122,cuSIFT,A CUDA-enabled SIFT library,13,5,2016-04-02T16:07:50Z,https://github.com/danielsuo/cuSIFT
+123,unsupervised-videos,Unsupervised Learning of Video Representations using LSTMs,351,113,2018-03-06T02:55:46Z,https://github.com/mansimov/unsupervised-videos
+124,SLIC_CUDA,Superpixel SLIC for GPU (CUDA),64,19,2019-12-11T01:25:20Z,https://github.com/fderue/SLIC_CUDA
+125,dijkstra-CUDA,"Dijkstra's Algorithm implemented in C/C++ using standard C, OpenMP and CUDA",11,9,2015-12-12T23:53:53Z,https://github.com/srrcboy/dijkstra-CUDA
+126,warp-ctc,Fast parallel CTC.,4053,1051,2023-01-05T14:28:28Z,https://github.com/baidu-research/warp-ctc
+127,cuHE,CUDA Homomorphic Encryption Library,174,38,2017-06-08T20:26:33Z,https://github.com/vernamlab/cuHE
+128,arboretum,Gradient Boosting powered by GPU(NVIDIA CUDA),65,15,2020-04-07T09:50:42Z,https://github.com/sh1ng/arboretum
+129,ctc,Numpy and Theano bindings for Baidu's warp-ctc,60,22,2017-06-18T22:42:22Z,https://github.com/sherjilozair/ctc
+130,StructuredEikonal,CUDA implementation of FIM (Fast Iterative Method) for Eikonal equations on Structured Volumes,16,10,2019-02-22T18:36:02Z,https://github.com/SCIInstitute/StructuredEikonal
+131,libcudavoting,A library for tensor voting on 3D point-clouds using GPU (NVIDIA). ,19,13,2016-02-16T13:33:33Z,https://github.com/CityU-MBE/libcudavoting
+132,gpuvmem,GPU Framework for Radio Astronomical Image Synthesis,29,4,2023-12-21T19:59:58Z,https://github.com/miguelcarcamov/gpuvmem
+133,CUDA-MCDNN,,13,3,2017-07-13T11:49:33Z,https://github.com/TanDongXu/CUDA-MCDNN
+134,2016_super_resolution,ICCV2015 Image Super-Resolution Using Deep Convolutional Networks,86,43,2019-04-01T08:23:30Z,https://github.com/layumi/2016_super_resolution
+135,KdTreeGPU,A gpu based implementation of a K-D Tree Builder,80,19,2019-10-04T18:07:41Z,https://github.com/johnarobinson77/KdTreeGPU
+136,MTSS-Multivariate-Time-Series-Software,A GP-GPU/CPU Dynamic Time Warping (DTW) implementation for the analysis of Multivariate Time Series (MTS).,40,9,2020-01-17T09:30:58Z,https://github.com/DavideNardone/MTSS-Multivariate-Time-Series-Software
+137,TiledMatrixMultiplicationInCUDA,TILED Matrix Multiplication in CUDA using Shared Memory. An efficient and fast way.,23,10,2018-11-16T09:09:58Z,https://github.com/yogesh-desai/TiledMatrixMultiplicationInCUDA
+138,MemBootcamp,GPU Memory Bootcamp Series example code,11,1,2016-04-03T19:20:21Z,https://github.com/tscudiero/MemBootcamp
+139,cudaLATCH,GPU implementation of LATCH descriptor & matcher. ,40,12,2016-09-12T14:19:55Z,https://github.com/csp256/cudaLATCH
+140,theano-roi-pooling,Theano port of Ross Girshick's ROI Pooling Layer,28,9,2016-10-19T14:38:10Z,https://github.com/ddtm/theano-roi-pooling
+141,cs344-cuda-udacity,"Windows Visual Studio Solutions for class ""Introduction to Parallel Programming""",20,9,2018-11-17T11:15:30Z,https://github.com/wykvictor/cs344-cuda-udacity
+142,PySparseConvNet,Python Framework for sparse neural networks,19,5,2017-04-28T13:54:09Z,https://github.com/gangiman/PySparseConvNet
+143,Batch_Normalized_Maxout_NIN,http://arxiv.org/abs/1511.02583,12,1,2017-11-05T15:10:53Z,https://github.com/JiaRenChang/Batch_Normalized_Maxout_NIN
+144,asw,An open-source attempt at a GPU-accelerated Adaptive Support Weight stereo matching algorithm,11,6,2016-05-31T06:12:11Z,https://github.com/rdbeethe/asw
+145,twostreamfusion,"Code release for ""Convolutional Two-Stream Network Fusion for Video Action Recognition"", CVPR 2016.",700,193,2016-09-27T08:45:53Z,https://github.com/feichtenhofer/twostreamfusion
+146,cumf_als,CUDA Matrix Factorization Library with Alternating Least Square (ALS),169,48,2018-08-14T02:24:37Z,https://github.com/cuMF/cumf_als
+147,SOFTX-D-15-00085,A GPU based discrete element method (DEM) framework. To cite this software publication: https://www.sciencedirect.com/science/article/pii/S235271101630005X,25,25,2015-12-01T13:40:47Z,https://github.com/ElsevierSoftwareX/SOFTX-D-15-00085
+148,CUDA-MLlib,CUDA kernel and JNI code which is called by Apache Spark's MLlib.,17,9,2016-06-18T17:57:04Z,https://github.com/IBMSparkGPU/CUDA-MLlib
+149,stn3d,3D Spatial Transformer Network,14,5,2017-04-23T03:10:34Z,https://github.com/shubhtuls/stn3d
+150,tsdf-fusion,Fuse multiple depth frames into a TSDF voxel volume.,663,133,2019-05-07T17:43:55Z,https://github.com/andyzeng/tsdf-fusion
+151,elixir-cuda-example,Example of controlling CUDA-using-CNode with Elixir.,28,5,2016-05-12T12:44:31Z,https://github.com/remiq/elixir-cuda-example
+152,word2vec-acc-cuda,Acceleration of word2vec using GPU,13,4,2017-01-25T08:53:09Z,https://github.com/kinchi22/word2vec-acc-cuda
+153,CUDA-Connected-Component-Labelling,Parallel GPU Implementation of Connected Component Labelling (CCL). Connected-component labeling is used in computer vision to detect connected regions in binary digital images,48,16,2018-02-11T06:41:48Z,https://github.com/ironhide23586/CUDA-Connected-Component-Labelling
+154,UAMMD,"A CUDA project for Molecular Dynamics, Brownian Dynamics, Hydrodynamics... intended to simulate a very generic system constructing a simulation with modules.",43,10,2023-12-22T08:42:57Z,https://github.com/RaulPPelaez/UAMMD
+155,EECS-368-Programming-Massively-Parallel-Processors-with-CUDA,,18,8,2016-05-17T03:50:58Z,https://github.com/dawn-chu/EECS-368-Programming-Massively-Parallel-Processors-with-CUDA
+156,STOMPSelfJoin,GPU Implementation of the STOMP algorithm for computing the matrix profile,18,8,2018-09-27T19:17:10Z,https://github.com/zpzim/STOMPSelfJoin
+157,algorithms-cuda,parallel algorithm based on cuda,55,41,2017-11-27T03:42:54Z,https://github.com/chaolongzhang/algorithms-cuda
+158,GPU-MapReduce,A GPU-accelerated MapReduce Implementation,17,5,2016-06-09T08:39:56Z,https://github.com/gavyaggarwal/GPU-MapReduce
+159,py-faster-rcnn-windows,py-faster-rcnn that can compile on windows directly,135,70,2016-07-11T10:50:07Z,https://github.com/MrGF/py-faster-rcnn-windows
+160,cuda-blur,Implement image blur as a GPU kernel using CUDA,14,7,2016-06-29T01:29:39Z,https://github.com/yanji84/cuda-blur
+161,Product-Quantization-Tree,"GPU-based large scale Approx. Nearest Neighbor Search, accepted at CVPR 2016",91,26,2018-11-03T08:47:15Z,https://github.com/cgtuebingen/Product-Quantization-Tree
+162,DeepJointFilter,The source code of ECCV16 'Deep Joint Image Filtering'.,79,28,2018-12-16T07:26:07Z,https://github.com/Yijunmaverick/DeepJointFilter
+163,merge-spmv,,82,28,2017-02-10T19:38:26Z,https://github.com/dumerrill/merge-spmv
+164,lstm-cuda,This is a c++ implementation of an LSTM Neural Network parallelized for a GPU using CUDA,22,11,2017-10-29T13:50:12Z,https://github.com/brandontrabucco/lstm-cuda
+165,SMFFT,fast Fourier transform on GPU in shared memory for AstroAccelerate project,19,6,2020-10-29T13:04:36Z,https://github.com/KAdamek/SMFFT
+166,kblas-gpu,Subset of BLAS routines optimized for NVIDIA GPUs,57,10,2023-03-27T13:20:24Z,https://github.com/ecrc/kblas-gpu
+167,cuMat,,22,11,2017-06-22T08:17:04Z,https://github.com/takezo5096/cuMat
+168,easy_computed_tomography.github.io,Educational and easy-to-understand parallel-beam computed tomography simulator (implemented both in MATLAB and CUDA),22,4,2019-12-21T01:17:16Z,https://github.com/rehmanali1994/easy_computed_tomography.github.io
+169,cuda_cuts,Based on CUDA Cuts Code,20,6,2018-06-05T08:16:44Z,https://github.com/jaimeyzzz/cuda_cuts
+170,CUDASieve,A GPU accelerated implementation of the sieve of Eratosthenes,53,13,2022-12-18T17:56:10Z,https://github.com/curtisseizert/CUDASieve
+171,Plane_Wave_Ultrasound_Stolt_F-K_Migration.github.io,"MATLAB, Python, and CUDA Implementations of Plane Wave Ultrasound Imaging with Stolt's f-k Migration (Original MATLAB code and plane wave data came from here: http://www.biomecardio.com/pageshtm/tools/toolsen.htm) [Reference: Garcia D et al. Stolt's f-k migration for plane wave ultrasound imaging. IEEE UFFC, 2013;60:1853-1867.]",31,24,2017-09-18T19:30:35Z,https://github.com/rehmanali1994/Plane_Wave_Ultrasound_Stolt_F-K_Migration.github.io
+172,cuda-revised-simplex,"An implementation of the revised simplex algorithm in CUDA for solving linear optimization problems in the form max{c*x | A*x=b, l<=x<=u}",26,6,2016-12-09T08:31:32Z,https://github.com/SethosII/cuda-revised-simplex
+173,PatchMatch,An implementation of patchmatch algorithm.,20,6,2016-11-04T06:14:14Z,https://github.com/rozentill/PatchMatch
+174,FCIS,Fully Convolutional Instance-aware Semantic Segmentation,1568,422,2021-09-27T02:16:42Z,https://github.com/msracver/FCIS
+175,Enterprise, Enterprise: Breadth-First Graph Traversal on GPUs. SC'15.,30,17,2017-05-20T12:26:01Z,https://github.com/iHeartGraph/Enterprise
+176,SuRVoS,(Su)per (R)egion (Vo)lume (S)egmentaton workbench ,25,5,2023-07-06T21:18:52Z,https://github.com/DiamondLightSource/SuRVoS
+177,iBFS,iBFS: Concurrent Breadth-First Search on GPUs. SIGMOD'16,23,12,2017-06-08T01:29:49Z,https://github.com/iHeartGraph/iBFS
+178,cudawesome,"A collection of awesome algorithms, implemented in CUDA.",21,4,2018-02-06T18:19:09Z,https://github.com/gmarciani/cudawesome
+179,StacklessRayTracer,Implemented stackless KDTree on GPU to accelerate ray tracing rendering algorithm. Hardware level optimizations for register spills local memory overhead are used. ,21,2,2016-10-06T04:36:05Z,https://github.com/jasonge27/StacklessRayTracer
+180,stixels,GPU-accelerated real-time stixel computation,77,38,2021-07-10T15:21:35Z,https://github.com/dhernandez0/stixels
+181,zmine,A GPU miner for the Zcash cryptocurrency.,15,11,2016-10-20T12:25:14Z,https://github.com/TACIXAT/zmine
+182,HungarianGPU,An GPU/CUDA implementation of the Hungarian algorithm,96,17,2019-04-12T16:34:15Z,https://github.com/paclopes/HungarianGPU
+183,Parallel-AES-Algorithm-using-CUDA,This project parallelized the process of AES encryption with CUDA. We can enhance the overall speedup to 3 times than the original serial version.,13,9,2018-01-30T02:51:28Z,https://github.com/allenlee820202/Parallel-AES-Algorithm-using-CUDA
+184,deepspeech,DeepSpeech neon implementation,222,69,2023-01-03T22:54:04Z,https://github.com/NervanaSystems/deepspeech
+185,Parallel-Point-Cloud-Registration,15-618 Project,32,16,2017-01-08T02:24:20Z,https://github.com/HanzhouLu/Parallel-Point-Cloud-Registration
+186,CUDA-image-processing,,14,4,2018-02-13T16:56:15Z,https://github.com/rpgolshan/CUDA-image-processing
+187,cublasHgemm-P100,Code for testing the native float16 matrix multiplication performance on Tesla P100 and V100 GPU based on cublasHgemm,35,12,2019-08-20T20:04:39Z,https://github.com/hma02/cublasHgemm-P100
+188,ptnbhwd,Perspective Transformer Layer,18,7,2016-11-28T04:50:28Z,https://github.com/xcyan/ptnbhwd
+189,cuStinger,This repository contains the cuStinger data structure used for dynamic graph representation.,17,10,2019-01-11T23:17:36Z,https://github.com/cuStinger/cuStinger
+190,cudabmk,Source for Demystifying GPU Microarchitecture through Microbenchmarking,14,3,2023-05-29T05:20:02Z,https://github.com/spthm/cudabmk
+191,Dark-Channel-Haze-Removal-with-CUDA,Dark channel Haze removal algorithm with CUDA acceleration (typically 10x or more speedup using a Nvidia GPU),14,3,2017-12-07T15:25:10Z,https://github.com/TomHeaven/Dark-Channel-Haze-Removal-with-CUDA
+192,knn_cuda,Fast K-Nearest Neighbor search with GPU,140,25,2017-09-07T14:39:19Z,https://github.com/chrischoy/knn_cuda
+193,EPPM,"CUDA implementation of the paper ""Fast Edge-Preserving PatchMatch for Large Displacement Optical Flow"" in CVPR 2014.",37,11,2016-12-15T02:27:35Z,https://github.com/linchaobao/EPPM
+194,Multi-scale-CNN-Dehazing,"Single Image Dehazing via Multi-scale Convolutional Neural Networks, ECCV 2016",28,11,2018-01-21T07:28:21Z,https://github.com/rwenqi/Multi-scale-CNN-Dehazing
+195,GPU-Computing-For-Finance,Repository for GPU Computing for Finance,14,8,2018-06-02T16:18:00Z,https://github.com/gengler1123/GPU-Computing-For-Finance
+196,one_stencil,Multiple 1-stencil implementations using nvidia cuda.,11,3,2017-12-02T17:04:46Z,https://github.com/MatanHamilis/one_stencil
+197,Photops,CUDA based parallel Image processing tool,19,3,2017-01-11T10:49:48Z,https://github.com/ShivayaDevs/Photops
+198,NvPipe,NVIDIA-accelerated zero latency video compression library for interactive remoting applications,384,99,2020-06-03T11:07:01Z,https://github.com/NVIDIA/NvPipe
+199,bnn.torch,,11,4,2017-08-22T10:22:04Z,https://github.com/1adrianb/bnn.torch
+200,warp-ctc,Pytorch Bindings for warp-ctc,751,275,2023-07-02T07:31:58Z,https://github.com/SeanNaren/warp-ctc
+201,cuda-noise,Library of common noise functions for CUDA kernels,32,6,2022-11-19T21:36:43Z,https://github.com/covexp/cuda-noise
+202,phasefield-precipitate-aging,Phase field model for precipitate aging in ternary analogues to Ni-based superalloys,29,10,2020-12-16T16:45:31Z,https://github.com/usnistgov/phasefield-precipitate-aging
+203,baidu-allreduce,,541,114,2018-04-06T05:29:59Z,https://github.com/baidu-research/baidu-allreduce
+204,PSE,Positively Split Ewald,19,6,2020-12-03T16:35:01Z,https://github.com/stochasticHydroTools/PSE
+205,Cuda-Opengl-LBM,Lattice-Botlzmann fluid simulator using CUDA and OpenGL,21,6,2017-02-26T21:11:47Z,https://github.com/Toms42/Cuda-Opengl-LBM
+206,CUDA-LBM-simulator,This is a Lattice-Boltzmann simulation using CUDA GPU graphics optimization.,20,7,2017-02-25T01:54:58Z,https://github.com/henryfriedlander/CUDA-LBM-simulator
+207,cublasgemm-benchmark,code for benchmarking GPU performance based on cublasSgemm and cublasHgemm,19,16,2022-05-20T20:51:57Z,https://github.com/hma02/cublasgemm-benchmark
+208,G-IDW,Parallel GPU Inverse Distance Weighting,16,6,2017-12-05T17:36:04Z,https://github.com/MarioRuggieri/G-IDW
+209,pascal-training,"Teaching materials, slides and exercises, for the GPU & CUDA training in 2017",13,3,2017-03-01T15:07:47Z,https://github.com/eth-cscs/pascal-training
+210,Vehicle-Routing-Problem-GPU-CUDA,This repo contains a source code in Python as well CUDA for VRP,12,12,2023-06-16T20:39:42Z,https://github.com/prasadp4009/Vehicle-Routing-Problem-GPU-CUDA
+211,CUDA,Introduction to CUDA programming,101,24,2017-05-19T11:50:24Z,https://github.com/csc-training/CUDA
+212,ploc,Parallel Locally-Ordered Clustering for Bounding Volume Hierarchy Construction,26,9,2018-02-05T09:05:27Z,https://github.com/meistdan/ploc
+213,cuda_scheduling_examiner_mirror,A tool for examining GPU scheduling behavior.,57,18,2023-10-24T17:00:14Z,https://github.com/yalue/cuda_scheduling_examiner_mirror
+214,libgiddy,Giddy - A lightweight GPU decompression library,40,9,2019-07-09T19:02:51Z,https://github.com/eyalroz/libgiddy
+215,cuda-gpu-tlb,TLB Benchmarks,28,9,2017-09-11T15:12:02Z,https://github.com/gcoe-dresden/cuda-gpu-tlb
+216,examples,Example codes appears in lectures,23,5,2022-01-11T18:51:39Z,https://github.com/dlsys-course/examples
+217,cutorch_hip,,14,1,2019-03-21T22:45:26Z,https://github.com/rocmarchive/cutorch_hip
+218,theano-roi-align,An implementation of the RoiAlign operation for Theano,11,2,2018-05-27T10:39:32Z,https://github.com/Ignotus/theano-roi-align
+219,TemporalConvolutionTBC,,14,2,2017-05-12T17:20:32Z,https://github.com/gchanan/TemporalConvolutionTBC
+220,lbm,"Lattice Boltzmann Reference Code: serial, CUDA, and OCCA versions",12,3,2022-10-24T21:42:36Z,https://github.com/tcew/lbm
+221,418-RAD,Final Project for 15-418,11,15,2017-05-13T03:29:23Z,https://github.com/xankuroi/418-RAD
+222,CUDA-CNN,Implementation of a simple CNN using CUDA,54,19,2017-05-02T04:38:39Z,https://github.com/paramhanji/CUDA-CNN
+223,udacity-IntroToParallelProgramming,CS344 - Introduction To Parallel Programming course (Udacity) proposed solutions,47,21,2017-07-23T16:11:20Z,https://github.com/nickspell/udacity-IntroToParallelProgramming
+224,hornetsnest,High-Performance Streaming Graph Analytics on GPUs ,30,15,2019-01-28T20:58:57Z,https://github.com/hornet-gt/hornetsnest
+225,gpuqt,A CUDA-implementation of linear-scaling quantum transport methods,22,11,2023-09-28T18:52:00Z,https://github.com/brucefan1983/gpuqt
+226,TSP-GPU,Solving the Travelers Salesman Problem using GPU ( Cuda ) using ANT and GA  algorithms,13,7,2017-12-17T19:46:41Z,https://github.com/rachitmehrotra1/TSP-GPU
+227,libgdf,[ARCHIVED] C GPU DataFrame Library,139,43,2018-11-06T14:16:46Z,https://github.com/rapidsai/libgdf
+228,espresso,Efficient forward propagation for BCNNs,49,15,2017-06-12T20:10:41Z,https://github.com/fpeder/espresso
+229,gpu-radix-sort,CUDA implementation of parallel radix sort using Blelloch scan,47,12,2018-03-08T03:31:35Z,https://github.com/mark-poscablo/gpu-radix-sort
+230,WIN,Learning Pixel-Distribution Prior with Wider Convolution for Image Denoising,32,11,2017-08-23T22:59:11Z,https://github.com/cswin/WIN
+231,supervised-deep-sparse-coding-networks,supervised deep sparse coding networks,30,12,2017-06-10T23:09:04Z,https://github.com/XiaoxiaSun/supervised-deep-sparse-coding-networks
+232,BEGPUThinning,,26,10,2020-08-14T21:17:22Z,https://github.com/mwagner9/BEGPUThinning
+233,gpu-prefix-sum,CUDA implementation of exclusive prefix sum via Blelloch's algorithm,21,11,2017-07-19T18:58:06Z,https://github.com/mark-poscablo/gpu-prefix-sum
+234,ComputeStuff,MIT-licensed stand-alone CUDA utility functions.,15,2,2020-07-03T13:30:37Z,https://github.com/cdyk/ComputeStuff
+235,kmeans,kmeans clustering with multi-GPU capabilities,112,34,2023-04-18T15:57:23Z,https://github.com/NVIDIA/kmeans
+236,nsparse,Sparse matrix computation library for GPU,52,11,2020-07-12T00:39:00Z,https://github.com/EBD-CREST/nsparse
+237,crfrnn_layer,A Lasagne layer (and supporting Theano Ops) for the CRF-as-RNN layer.,49,13,2020-11-18T04:16:16Z,https://github.com/HapeMask/crfrnn_layer
+238,cuNVSM,Neural Vector Space Models,49,8,2018-10-30T21:16:31Z,https://github.com/cvangysel/cuNVSM
+239,NCCL,Windows version of NVIDIA's NCCL ('Nickel') for multi-GPU training - please use https://github.com/NVIDIA/nccl for changes.,40,13,2023-12-08T02:02:46Z,https://github.com/MyCaffe/NCCL
+240,matconvnet-dermoscopy,DermaKNet: Incorporating the knowledge of dermatologists to Convolutional Neural Networks for skin lesion diagnosis.,37,21,2021-11-23T14:53:19Z,https://github.com/igondia/matconvnet-dermoscopy
+241,gpu-sum-reduction,CUDA implementation of the fundamental sum reduce operation. Aims to be as optimized as reasonable.,28,10,2017-07-19T19:05:20Z,https://github.com/mark-poscablo/gpu-sum-reduction
+242,libmp,Simple message passing library,20,6,2018-08-28T14:48:44Z,https://github.com/gpudirect/libmp
+243,DukeMTMC-reID_baseline,DukeMTMC-reID_baseline (Matlab),18,10,2017-08-08T00:46:51Z,https://github.com/layumi/DukeMTMC-reID_baseline
+244,pyculib_sorting,Sorting libraries for pyculib,14,7,2018-08-22T09:51:56Z,https://github.com/numba/pyculib_sorting
+245,DepthwiseConvolution,A personal depthwise convolution layer implementation on caffe by liuhao.(only GPU),525,185,2021-05-21T06:54:58Z,https://github.com/yonghenglh6/DepthwiseConvolution
+246,nnabla-ext-cuda,A CUDA Extension of Neural Network Libraries,90,34,2023-12-06T09:27:42Z,https://github.com/sony/nnabla-ext-cuda
+247,cub,,17,13,2017-07-31T16:51:30Z,https://github.com/dmlc/cub
+248,Pedestrian_Alignment,TCSVT2018 Pedestrian Alignment Network for Large-scale Person Re-identification,234,67,2021-07-21T03:21:16Z,https://github.com/layumi/Pedestrian_Alignment
+249,Removing_Rain,Removing Rain from Single Images via a Deep Detail Network,25,4,2017-07-05T01:19:33Z,https://github.com/XMU-smartdsp/Removing_Rain
+250,Person-reID_GAN,ICCV2017 Unlabeled Samples Generated by GAN Improve the Person Re-identification Baseline in vitro,319,93,2021-06-29T10:21:55Z,https://github.com/layumi/Person-reID_GAN
+251,GPUMD,Graphics Processing Units Molecular Dynamics,261,98,2023-12-23T03:20:27Z,https://github.com/brucefan1983/GPUMD
+252,ADNet,Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning (CVPR 2017),98,40,2019-01-08T02:35:50Z,https://github.com/hellbell/ADNet
+253,Top-K,A way to use cuda to accelerate top k algorithm,26,7,2017-07-11T08:58:00Z,https://github.com/yuxianzhi/Top-K
+254,DUGMA,DUGMA: Dynamic Uncertainty-Based Gaussian Mixture Alignment,14,5,2023-07-28T12:37:10Z,https://github.com/Canpu999/DUGMA
+255,GPU-Distance-Driven-projection-backprojection,,14,6,2018-05-18T03:58:40Z,https://github.com/RuiLiu1217/GPU-Distance-Driven-projection-backprojection
+256,pipcudemo,An example project showing how to build a pip-installable Python package that invokes custom CUDA/C++ code,11,2,2017-07-12T15:21:35Z,https://github.com/apryor6/pipcudemo
+257,deformable-convolution-pytorch,PyTorch implementation of Deformable Convolution,408,54,2019-02-17T06:07:11Z,https://github.com/1zb/deformable-convolution-pytorch
+258,mutual_information_cuda,calculate mutual information and mattes mutual information in CUDA,17,4,2017-08-17T13:04:18Z,https://github.com/yge58/mutual_information_cuda
+259,DDSH-TIP2018,"source code for paper ""Deep Discrete Supervised Hashing""",15,4,2020-08-21T04:01:48Z,https://github.com/jiangqy/DDSH-TIP2018
+260,SENet,Squeeze-and-Excitation Networks,3238,830,2019-02-25T08:41:20Z,https://github.com/hujie-frank/SENet
+261,nccl-tests,NCCL Tests,570,180,2023-12-20T20:34:22Z,https://github.com/NVIDIA/nccl-tests
+262,gpgpu-sim_simulations,"A repository that compliments gpgpu-sim, providing automated regression scripts, simulation launching utilities and the code + arguments for simulations that complete in a reasonable amount of time on GPGPU-Sim.",49,57,2020-08-22T20:18:28Z,https://github.com/gpgpu-sim/gpgpu-sim_simulations
+263,heterosync,HeteroSync is a benchmark suite for performing fine-grained synchronization on tightly coupled GPUs,20,6,2023-06-28T17:57:48Z,https://github.com/mattsinc/heterosync
+264,cuQRTM,"cuQRTM is a CUDA-based code package that implements Q-RTMs based on a set of stable and efficient strategies, such as streamed CUFFT, checkpointing-assisted time-reversal reconstruction (CATRC) and adaptive stabilization.",13,12,2018-06-06T09:25:14Z,https://github.com/yufengwa/cuQRTM
+265,Bilateral-Filter-CUDA,C++/CUDA code to perform bilateral filtering on OpenCV Mat inputs,13,6,2017-08-15T14:41:07Z,https://github.com/aashikgowda/Bilateral-Filter-CUDA
+266,GPU_Overlap-and-save_convolution,Shared memory overlap-and-save method for NVIDIA GPUs using CUDA,12,6,2022-11-11T15:33:56Z,https://github.com/KAdamek/GPU_Overlap-and-save_convolution
+267,CUDA-DSP,"usrp stream program, single channel dsp with CUDA, single channel dsp without CUDA (for comparison)",13,8,2017-08-31T20:12:17Z,https://github.com/rumbonium/CUDA-DSP
+268,pytorch_knn_cuda,K-Nearest Neighbor in Pytorch,66,21,2019-11-02T09:11:09Z,https://github.com/chrischoy/pytorch_knn_cuda
+269,An_Introduction_to_GPU_Programming,"This is the code for ""An introduction to GPU Programming with CUDA"" by Siraj Raval on Youtube",62,21,2017-09-15T16:28:10Z,https://github.com/llSourcell/An_Introduction_to_GPU_Programming
+270,k-means,"Code accompanying my blog post on k-means in Python, C++ and CUDA",58,20,2017-09-19T22:10:22Z,https://github.com/goldsborough/k-means
+271,xgboost-node,Run XGBoost model and make predictions in Node.js,36,8,2017-10-30T04:06:24Z,https://github.com/nuanio/xgboost-node
+272,CCL,The implementation of algorithm Parallel graph component labelling with GPUs and CUDA.,15,1,2018-04-27T10:02:07Z,https://github.com/zhangxiaoya/CCL
+273,warpdrive,,13,6,2022-04-26T10:25:20Z,https://github.com/sleeepyjack/warpdrive
+274,AMGX,Distributed multigrid linear solver library on GPU,424,132,2023-12-12T09:21:00Z,https://github.com/NVIDIA/AMGX
+275,MPN-COV,"@ICCV2017: For exploiting second-order statistics, we propose Matrix Power Normalized Covariance pooling (MPN-COV) ConvNets, different from and outperforming those using global average pooling.",73,27,2019-01-18T07:52:57Z,https://github.com/jiangtaoxie/MPN-COV
+276,vicsek-model-3D,This repo simulates some particle systems using openGL and cuda.,15,1,2017-11-07T14:18:07Z,https://github.com/planelles20/vicsek-model-3D
+277,CSNet,"This is the test demo for ""Deep networks for compressed image sensing."" (ICME2017) Author: Wuzhen Shi Email: wzhshi@hit.edu.cn",15,5,2018-05-29T03:28:25Z,https://github.com/wzhshi/CSNet
+278,libsdf,TSDF library,13,3,2017-10-03T02:40:11Z,https://github.com/Scoobadood/libsdf
+279,cuda-tiled-matrix-multiplication,"Optimized Parallel Tiled Approach to perform Matrix Multiplication by taking advantage of the lower latency, higher bandwidth shared memory within GPU thread blocks.",11,1,2017-09-24T08:07:29Z,https://github.com/debowin/cuda-tiled-matrix-multiplication
+280,hornet,Hornet data structure for sparse dynamic graphs and matrices,76,30,2019-11-14T17:52:58Z,https://github.com/hornet-gt/hornet
+281,cuda-fixnum,Extended-precision modular arithmetic library that targets CUDA.,40,28,2020-03-21T03:06:56Z,https://github.com/data61/cuda-fixnum
+282,Convolution-with-sparse-kernel-in-TF,Development a customized op in TensorFlow for convolution with sparse kernel,28,8,2019-06-27T15:25:05Z,https://github.com/Connor323/Convolution-with-sparse-kernel-in-TF
+283,BG_Flood,"Numerical model for simulating shallow water hydrodynamics on the GPU using an Adaptive Mesh Refinment type grid. The model was designed with the goal of simulating inundation (River, Storm surge or tsunami). The model uses a Block Uniform Quadtree approach that runs on the GPU but the adaptive/multi-resolution/AMR is being implemented and not yet operational.  The core SWE engine and adaptivity has been inspired and taken from St Venant solver from Basilisk and the CUDA GPU memory model has been inspired by the work from Vacondio _et al._2017)",26,15,2023-12-18T07:38:34Z,https://github.com/CyprienBosserelle/BG_Flood
+284,TuringPatterns,C++/CUDA Implementation of the most popular reaction-diffusion dynamics,15,1,2023-11-17T00:23:29Z,https://github.com/pmontalb/TuringPatterns
+285,MultiGPU_AdvectionDiffusion,Multi-GPU (CUDA-MPI) baseline implementation of Heat Equation and the inviscid Burgers' equation,12,4,2017-10-17T07:28:55Z,https://github.com/wme7/MultiGPU_AdvectionDiffusion
+286,Parallel_NMS,Parallel CUDA implementation of NON maximum Suppression,71,17,2020-09-19T22:16:41Z,https://github.com/jeetkanjani7/Parallel_NMS
+287,CudaSHA256,Simple tool to calculate sha256 on GPU using Cuda,60,20,2023-12-23T05:26:46Z,https://github.com/Horkyze/CudaSHA256
+288,FFT-cuda,"Fast Fourier Transform implementation, computable on CUDA platform. Seminar project for MI-PRC course at FIT CTU.",31,5,2023-05-03T20:30:46Z,https://github.com/marianhlavac/FFT-cuda
+289,Median-Filtering-GPU,High Performance Median Filtering Algorithm Based on NVIDIA GPU Computing,18,5,2017-11-15T02:29:33Z,https://github.com/detel/Median-Filtering-GPU
+290,Sparse-Matrix-Vector-Multiplication,SpMV using CUDA,14,6,2018-03-05T04:47:38Z,https://github.com/aneesh297/Sparse-Matrix-Vector-Multiplication
+291,Background-Subtraction-on-GPU-with-CUDA-and-OpenCV,"In this code is provided a simple, efficient and fast method to calculate motion and backgroud dynamically using nVidia GPUs power",12,3,2017-11-08T12:05:29Z,https://github.com/GianlucaPaolocci/Background-Subtraction-on-GPU-with-CUDA-and-OpenCV
+292,cuda-opencv-examples,Using custom CUDA kernels with Open CV Mat objects.,37,3,2018-08-01T09:27:52Z,https://github.com/evlasblom/cuda-opencv-examples
+293,mm-bp-snn,,33,18,2019-01-15T04:19:15Z,https://github.com/jinyyy666/mm-bp-snn
+294,Depth_conv-for-mobileNet,Depth_conv for MobileNet,30,5,2020-06-22T13:20:39Z,https://github.com/LamHoCN/Depth_conv-for-mobileNet
+295,NIPET,High-throughput PET image reconstruction with high quantitative accuracy and precision,27,7,2023-11-29T23:16:30Z,https://github.com/NiftyPET/NIPET
+296,CAMEL,MATLAB code for our ICCV'17 work: CAMEL (Clustering-based Asymmetric MEtric Learning),20,7,2018-12-21T06:11:08Z,https://github.com/KovenYu/CAMEL
+297,cmake-cuda-separate-compilation-linking,This example builds on the parallel-forall repo separate compilation example by adding CMake to it.,17,1,2017-11-14T07:39:14Z,https://github.com/kriegalex/cmake-cuda-separate-compilation-linking
+298,bitonic-sort,Bitonic Sort for C and CUDA,13,1,2018-09-27T15:15:43Z,https://github.com/nickjillings/bitonic-sort
+299,cuda_by_example,The CMake version of cuda_by_example,130,68,2020-07-24T07:45:30Z,https://github.com/Yannnnnnnnnnnn/cuda_by_example
+300,CUDAAdvisor,CUDAAdvisor: a GPU profiling tool,42,11,2018-08-24T03:08:49Z,https://github.com/sderek/CUDAAdvisor
+301,convolution_kernel,Accelerating CNN's convolution operation on GPUs by using memory-efficient data access patterns.,14,8,2017-12-08T22:42:28Z,https://github.com/yottabytt/convolution_kernel
+302,blocksparse,Efficient GPU kernels for block-sparse matrix multiplication and convolution,981,197,2023-06-08T11:01:25Z,https://github.com/openai/blocksparse
+303,cuSTARFM,cuSTARFM is a GPU-enabled Spatial and Temporal Adaptive Reflectance Fusion Model (STARFM),64,34,2021-06-01T03:43:16Z,https://github.com/HPSCIL/cuSTARFM
+304,cuESTARFM,cuESTARFM is a GPU-enabled enhanced Spatial and Temporal Adaptive Reflectance Fusion Model (ESTARFM),46,24,2022-07-26T07:58:29Z,https://github.com/HPSCIL/cuESTARFM
+305,ROIAlign,ROIAlign from Mask-RCNN ,14,6,2018-05-16T08:01:08Z,https://github.com/ZhiyanCui/ROIAlign
+306,ROI_Align,ROI_Align ,14,3,2020-03-11T08:17:24Z,https://github.com/a61730607/ROI_Align
+307,sporco-cuda,CUDA extension for the SPORCO project,17,6,2021-07-05T16:09:15Z,https://github.com/bwohlberg/sporco-cuda
+308,Simulation-of-LPBF-using-CUDA,"In this project, both dynamic and thermal simulation of laser powder bed fusion are implemented using CUDA.",14,3,2019-03-21T15:48:00Z,https://github.com/zhangyaqi1989/Simulation-of-LPBF-using-CUDA
+309,CUDA-Winograd,Fast CUDA Kernels for ResNet Inference.,157,48,2019-05-26T02:00:38Z,https://github.com/xuqiantong/CUDA-Winograd
+310,ALIGNet,code to train a neural network to align pairs of shapes without needing ground truth warps for supervision,63,16,2019-07-21T18:28:30Z,https://github.com/ranahanocka/ALIGNet
+311,sfarl,Simultaneous Fidelity and Regularization Learning for Image Restoration (TPAMI 2019),37,17,2020-03-18T04:44:58Z,https://github.com/csdwren/sfarl
+312,SHA256CUDA,,20,25,2023-09-06T23:54:18Z,https://github.com/moffa13/SHA256CUDA
+313,CUDA_Freshman,,1546,354,2023-11-14T01:50:47Z,https://github.com/Tony-Tan/CUDA_Freshman
+314,KinectFusionLib, Implementation of the KinectFusion approach in modern C++14 and CUDA ,429,78,2021-05-05T20:55:56Z,https://github.com/chrdiller/KinectFusionLib
+315,Tigr,Transforming Graphs for Efficient Irregular Graph Processing on GPUs,41,16,2022-11-15T06:20:53Z,https://github.com/AutomataLab/Tigr
+316,Makefile_Example_CUDA_CPP_To_Executable,Example Makefile for CUDA and C++ source files in a standard project layout.,36,17,2018-01-19T07:56:21Z,https://github.com/TravisWThompson1/Makefile_Example_CUDA_CPP_To_Executable
+317,LEARN,,23,17,2018-06-13T05:34:07Z,https://github.com/maybe198376/LEARN
+318,Person_reID_baseline_matconvnet,Matconvnet implement of Person re-identification baseline. We arrived Rank@1=87.74% mAP=69.46% only with softmax loss.,12,3,2018-02-01T05:35:34Z,https://github.com/layumi/Person_reID_baseline_matconvnet
+319,Lantern,,164,16,2021-04-20T21:19:38Z,https://github.com/feiwang3311/Lantern
+320,BVH-based-Collision-Detection-Scheme,General broad-phase collision detection framework using BVH and BVTT front tracking.,61,16,2023-07-31T10:18:35Z,https://github.com/littlemine/BVH-based-Collision-Detection-Scheme
+321,cuda,An implementation of parallel exclusive scan in CUDA,46,19,2018-02-23T15:09:16Z,https://github.com/mattdean1/cuda
+322,cytonMt,CytonMT: an Efficient Neural Machine Translation Open-source Toolkit Implemented in C++,21,6,2018-10-28T11:29:21Z,https://github.com/arthurxlw/cytonMt
+323,Saliency-guided-Faster-R-CNN_ACMMM2017,"Source code of our ACM MM 2017 paper ""Fine-grained Discriminative Localization via Saliency-guided Faster R-CNN""",16,7,2019-01-21T14:37:49Z,https://github.com/PKU-ICST-MIPL/Saliency-guided-Faster-R-CNN_ACMMM2017
+324,CCN,Sample pytorch implementation of Covariant Compositional Networks,13,1,2018-02-17T18:29:20Z,https://github.com/horacepan/CCN
+325,Fat-Clouds,GPU Fluid Simulation with Volumetric Rendering ,97,9,2018-03-31T17:08:52Z,https://github.com/PWhiddy/Fat-Clouds
+326,CUDAClionStarterProject,"CUDA CLion starter project template, with simple vector addition code.",23,7,2018-06-20T09:26:09Z,https://github.com/repalash/CUDAClionStarterProject
+327,Parallel-DFS,CUDA implementation of parallel Depth First Search (DFS) algorithm and it's comparison with a serial C++ DFS implementation.,22,6,2018-06-28T19:16:06Z,https://github.com/divyanshu-talwar/Parallel-DFS
+328,prbvh,,15,4,2018-02-19T08:09:55Z,https://github.com/meistdan/prbvh
+329,cuFHE,CUDA-accelerated Fully Homomorphic Encryption Library,176,56,2021-07-07T14:50:29Z,https://github.com/vernamlab/cuFHE
+330,Lux,A Distributed Multi-GPU System for Fast Graph Processing,62,8,2018-10-25T20:16:07Z,https://github.com/LuxGraph/Lux
+331,cuda_word_split,"This project is an old code for Chinese words split. It is written by CUDA at 2010, so it could not run well directly under you platform without an GPU card. ",30,3,2018-03-13T07:46:01Z,https://github.com/sebarzi/cuda_word_split
+332,OCT-MPS,Massively Parallel Simulator of Optical Coherence Tomography (OCT-MPS),23,7,2018-03-18T15:37:52Z,https://github.com/SiavashMT/OCT-MPS
+333,CryptoGPU,Cryptocurrency prices analysis,16,3,2022-12-06T16:55:26Z,https://github.com/dezmou/CryptoGPU
+334,PairLoss,Demo Code for paper 'When Deep Learning Meets Metric Learning: Remote Sensing Image Scene Classification via Learning Discriminative CNNs (TGRS)',14,2,2018-03-19T12:31:02Z,https://github.com/limbo0000/PairLoss
+335,tsne-cuda,GPU Accelerated t-SNE for CUDA with Python bindings,1657,121,2023-09-13T20:22:05Z,https://github.com/CannyLab/tsne-cuda
+336,nv-wavenet,Reference implementation of real-time autoregressive wavenet inference,731,126,2021-01-19T15:09:25Z,https://github.com/NVIDIA/nv-wavenet
+337,warp-ctc,PyTorch bindings for Warp-CTC,43,12,2019-12-06T11:03:21Z,https://github.com/t-vi/warp-ctc
+338,link_cuda_kernel,"HowTo: Compile CUDA with nvcc, and link to Rust",36,5,2018-06-22T06:38:12Z,https://github.com/termoshtt/link_cuda_kernel
+339,MSWNNM,Multi-Scale Weighted Nuclear Norm Image Restoration,23,17,2018-06-15T08:45:45Z,https://github.com/noamyairTC/MSWNNM
+340,BPSAR-GPU,The Backprojection (Beam Formation) Imaging Algorithm for Synthetic Aperture Radar,15,6,2018-03-30T02:31:11Z,https://github.com/heTiHoUDAi/BPSAR-GPU
+341,deep-painterly-harmonization,"Code and data for paper ""Deep Painterly Harmonization"": https://arxiv.org/abs/1804.03189",6097,638,2021-08-02T02:46:03Z,https://github.com/luanfujun/deep-painterly-harmonization
+342,dpp,Detail-Preserving Pooling in Deep Networks (CVPR 2018),114,23,2018-11-14T13:19:49Z,https://github.com/visinf/dpp
+343,cytonRL,"reinforcement learning, deep Q-network, double DQN, dueling DQN, prioritized experience replay",29,6,2018-05-22T21:05:27Z,https://github.com/arthurxlw/cytonRL
+344,gpma_demo,Source code for the paper: Accelerating Dynamic Graph Analytics on GPUs,20,9,2023-06-19T03:37:44Z,https://github.com/desert0616/gpma_demo
+345,ndt_gpu,,20,10,2018-04-08T12:38:42Z,https://github.com/einsnull/ndt_gpu
+346,cuSTNLFFM,cuSTNLFFM is a GPU-enabled Spatial and Temporal Non-Local Filter-based Fusion Model (STNLFFM),19,9,2021-06-01T03:41:22Z,https://github.com/HPSCIL/cuSTNLFFM
+347,CUDA-QR,A new QR decomposition algorithm implemented in CUDA,15,3,2018-05-03T19:59:48Z,https://github.com/brian-kelley/CUDA-QR
+348,2d-Convolution-CUDA,This is a simple 2d convolution written in cuda c which uses shared memory for better performance,14,9,2018-04-12T13:18:19Z,https://github.com/krunal1313/2d-Convolution-CUDA
+349,learn-gpgpu,Algorithms implemented in CUDA + resources about GPGPU ,46,14,2022-01-18T09:14:44Z,https://github.com/rbaygildin/learn-gpgpu
+350,instaGRAAL,"Large genome reassembly based on Hi-C data, continuation of GRAAL",35,9,2023-01-27T16:57:50Z,https://github.com/koszullab/instaGRAAL
+351,df-nvshmem-prototype,"Prototype of OpenSHMEM for NVIDIA GPUs, developed as part of DoE Design Forward ",20,6,2018-04-26T22:19:52Z,https://github.com/NVIDIA/df-nvshmem-prototype
+352,multi-gpu-programming-models,Examples demonstrating available options to program multiple GPUs in a single node or a cluster,417,95,2022-10-17T12:24:24Z,https://github.com/NVIDIA/multi-gpu-programming-models
+353,open_quadtree_mapping,"This is a monocular dense mapping system corresponding to IROS 2018 ""Quadtree-accelerated Real-time Monocular Dense Mapping""",343,87,2018-10-16T03:52:29Z,https://github.com/HKUST-Aerial-Robotics/open_quadtree_mapping
+354,Titan,A high-performance CUDA-based physics simulation sandbox for soft robotics and reinforcement learning.,92,22,2020-09-18T22:51:57Z,https://github.com/jacobaustin123/Titan
+355,cuRE,,82,16,2018-10-04T21:56:14Z,https://github.com/GPUPeople/cuRE
+356,SGEMM-Implementation-and-Optimization,:pencil: Some source code about matrix multiplication implementation on CUDA,33,9,2018-09-12T13:39:43Z,https://github.com/Huanghongru/SGEMM-Implementation-and-Optimization
+357,UDNet,,25,15,2018-05-04T08:30:14Z,https://github.com/cig-skoltech/UDNet
+358,NLNet,,15,9,2018-05-04T08:30:55Z,https://github.com/cig-skoltech/NLNet
+359,SNN-for-Pattern-Recognition,A 3-layer SNN code for performing MNIST handwritten digit recognition using a supervised spike based learning rule,13,5,2018-11-05T22:06:36Z,https://github.com/k18shruti/SNN-for-Pattern-Recognition
+360,region-conv,Not All Pixels Are Equal: Difficulty-Aware Semantic Segmentation via Deep Layer Cascade,106,15,2018-05-26T16:13:12Z,https://github.com/liuziwei7/region-conv
+361,sgbm_cuda,Implement opencv sgbm algorithm based on cuda，sgbm is based on sgm,83,21,2020-09-24T02:52:42Z,https://github.com/jasonlinuxzhang/sgbm_cuda
+362,dynasoar,CUDA Dynamic Memory Allocator for SOA Data Layout,29,4,2021-12-29T19:17:46Z,https://github.com/prg-titech/dynasoar
+363,marching-cubes-cuda,,35,2,2018-06-03T16:23:30Z,https://github.com/ForeverDavid/marching-cubes-cuda
+364,AES-ON-GPU,,30,7,2018-07-29T03:16:47Z,https://github.com/Canhui/AES-ON-GPU
+365,2D3D-TI-FD-RTM-cuda,"This is an open source program based on NVIDIA cuda, which includes two-dimensional and three-dimensional VTI media forward simulation and reverse time migration imaging, two-dimensional TTI media reverse time migration imaging, and ADCIGs extraction of the above media]",30,9,2022-01-28T05:21:29Z,https://github.com/Rtoax/2D3D-TI-FD-RTM-cuda
+366,SHA3-ON-GPU,,20,1,2018-06-21T08:06:50Z,https://github.com/Canhui/SHA3-ON-GPU
+367,ZQlibCuda,,17,3,2018-06-05T04:21:08Z,https://github.com/zuoqing1988/ZQlibCuda
+368,GEGS,,13,3,2018-09-27T17:24:01Z,https://github.com/RicciWoo/GEGS
+369,FloodFill,Parallel CUDA FloodFill algorithm working on 2D and 3D arrays with obstacles,12,3,2018-09-14T14:45:58Z,https://github.com/dzidziewicz/FloodFill
+370,CNN_VGG19_CUDA,Convolutional Neural Network of vgg19 model using Cuda to accelerate,11,3,2018-06-11T05:22:10Z,https://github.com/romulus0914/CNN_VGG19_CUDA
+371,DCFNet,,11,1,2018-10-27T02:02:38Z,https://github.com/xycheng/DCFNet
+372,cuda-tutorial,A set of hands-on tutorials for CUDA programming,122,24,2023-11-28T18:20:51Z,https://github.com/puttsk/cuda-tutorial
+373,cufinufft-old,"2,3d type1,2 nonuniform FFT on GPU",12,2,2021-01-26T21:09:56Z,https://github.com/MelodyShih/cufinufft-old
+374,Learn-CUDA-Programming,"Learn CUDA Programming, published by Packt",811,209,2023-04-04T18:49:15Z,https://github.com/PacktPublishing/Learn-CUDA-Programming
+375,Style-Feature-Reshuffle,"caffe implementation of ""Arbitrary Style Transfer with Deep Feature Reshuffle""",43,8,2018-07-11T05:49:50Z,https://github.com/msracver/Style-Feature-Reshuffle
+376,how-to-optim-algorithm-in-cuda,how to optimize some algorithm in cuda.,685,63,2023-12-20T11:53:54Z,https://github.com/BBuf/how-to-optim-algorithm-in-cuda
+377,integral-human-pose,Integral Human Pose Regression,462,76,2019-04-04T02:58:37Z,https://github.com/JimmySuen/integral-human-pose
+378,online-softmax,"Benchmark code for the ""Online normalizer calculation for softmax"" paper",27,8,2018-07-27T06:33:42Z,https://github.com/NVIDIA/online-softmax
+379,OpenPH,Parallel reduction of boundary matrices for Persistent Homology with CUDA,23,5,2021-08-12T13:52:55Z,https://github.com/rodrgo/OpenPH
+380,PS-PreciseRoIPooling,Position sensitive PreciseRoIPooling without roi coordinates gradient backward,16,1,2018-08-02T10:03:10Z,https://github.com/RuiminChen/PS-PreciseRoIPooling
+381,cuSten,CUDA Finite Difference Library,15,4,2020-08-21T12:00:33Z,https://github.com/munstermonster/cuSten
+382,CUDA_Tutorial,,21,6,2019-10-26T16:13:08Z,https://github.com/DmitryLyakh/CUDA_Tutorial
+383,RealTimeSpecularHighlightRemoval,Real-Time Specular Highlight Removal with OpenCV and CUDA,63,19,2019-08-05T20:57:45Z,https://github.com/MarcioCerqueira/RealTimeSpecularHighlightRemoval
+384,Tartan,Tartan: Evaluating Modern GPU Interconnect via a Multi-GPU Benchmark Suite,52,10,2018-09-12T16:07:28Z,https://github.com/uuudown/Tartan
+385,bitreverse,"Bitcoin, Altcoins and Ethereum address collision mining software for cracking private keys",24,22,2022-09-12T12:24:37Z,https://github.com/Harold-Glitch/bitreverse
+386,A-frequency-domain-neural-network-for-fast-image-super-resolution,"This is the implementation of paper ""A frequency domain neural network for fast image super-resolution"".",13,4,2018-08-24T01:23:51Z,https://github.com/junxuan-li/A-frequency-domain-neural-network-for-fast-image-super-resolution
+387,TextUnderstandingTsetlinMachine,Using the Tsetlin Machine to learn human-interpretable rules for high-accuracy text categorization with medical applications,47,10,2019-09-09T13:28:48Z,https://github.com/cair/TextUnderstandingTsetlinMachine
+388,YOLO-V3-Acceleration,Using TensorRT to implement and accelerate YOLO v3. Multi-scale and NMS are included.  The acceleration ratio reaches 3 compared to the original darknet.,43,20,2018-09-05T08:11:31Z,https://github.com/zhangjinsong3/YOLO-V3-Acceleration
+389,GroupNorm-caffe,caffe implementation of Group Normalization https://arxiv.org/abs/1803.08494,42,8,2018-09-12T02:45:46Z,https://github.com/blankWorld/GroupNorm-caffe
+390,fast-tsetlin-machine-in-cuda-with-imdb-demo,A CUDA implementation of the Tsetlin Machine based on bitwise operators,26,2,2019-08-19T07:36:24Z,https://github.com/cair/fast-tsetlin-machine-in-cuda-with-imdb-demo
+391,MS-DCSNet-Release,"Multi-Scale Deep Compressive Sensing Network, IEEE Inter. Conf. Visual Comm. Image Process. (VCIP), 2018",14,5,2019-06-12T05:06:24Z,https://github.com/ngcthuong/MS-DCSNet-Release
+392,demoCaffe,,11,16,2018-09-03T03:37:55Z,https://github.com/XuekuanWang/demoCaffe
+393,PhaseUnwrapping,CUDA source code phase unwrapping for structured light system,25,5,2020-07-04T04:02:14Z,https://github.com/YuhuaXu/PhaseUnwrapping
+394,Optimal-Ternary-Weights-Approximation,"Caffe implementation of Optimal-Ternary-Weights-Approximation in ""Two-Step Quantization for Low-bit Neural Networks"" (CVPR2018).",14,3,2018-09-21T01:11:51Z,https://github.com/HolmesShuan/Optimal-Ternary-Weights-Approximation
+395,gpuRIR,Python library for Room Impulse Response (RIR) simulation with GPU acceleration,409,84,2023-11-03T13:03:22Z,https://github.com/DavidDiazGuerra/gpuRIR
+396,project-CURRENNT-public,CURRENNNT codes and scripts,76,11,2020-08-31T01:29:32Z,https://github.com/nii-yamagishilab/project-CURRENNT-public
+397,GlobalNonrigidRegistration,,25,11,2019-05-23T08:08:16Z,https://github.com/superxjm/GlobalNonrigidRegistration
+398,dpid,"Rapid, Detail-Preserving Image Downscaling",24,4,2018-10-13T08:03:33Z,https://github.com/mergian/dpid
+399,ImageFiltering_CUDA,Image Filtering using CUDA,17,11,2019-03-22T00:42:09Z,https://github.com/KhosroBahrami/ImageFiltering_CUDA
+400,gpuroofperf-toolkit,A GPU performance prediction toolkit for CUDA programs,15,3,2019-03-25T09:24:32Z,https://github.com/ekondis/gpuroofperf-toolkit
+401,culip,"Code for the culip (""CUda for Linear and Integer Programming"") project, containing GPU primitives for linear algebra, linear optimization and (someday) integer optimization.",15,3,2018-10-12T19:01:00Z,https://github.com/dthuerck/culip
+402,cuSNN,Spiking Neural Networks in C++ with strong GPU acceleration through CUDA ,110,23,2020-07-03T07:15:41Z,https://github.com/tudelft/cuSNN
+403,caffe-layer,implementation of some layers in caffe,29,8,2018-12-10T08:58:41Z,https://github.com/JunrQ/caffe-layer
+404,parallel-DDP,"Code supporting the WAFR paper ""A Performance Analysis of Differential Dynamic Programming on a GPU,"" and the ICRA workshop follow on work deploying the algorithm onto robot hardware.",26,8,2023-09-12T19:08:43Z,https://github.com/plancherb1/parallel-DDP
+405,RainDetectionAndRemoval,Joint Rain Detection and Removal from a Single Image,25,7,2018-10-26T12:25:18Z,https://github.com/ZhangXinNan/RainDetectionAndRemoval
+406,VICTRE_MCGPU,Version of MC-GPU used in the VICTRE project,25,16,2023-05-10T22:49:56Z,https://github.com/DIDSR/VICTRE_MCGPU
+407,mxnet-cornernet,Reproduce of CornerNet,23,1,2019-02-28T08:42:46Z,https://github.com/BigDeviltjj/mxnet-cornernet
+408,Robust-visual-odometry-cuda,Visual odometry (based on image intensity) implementation on CUDA,23,2,2018-10-16T19:53:11Z,https://github.com/fracogno/Robust-visual-odometry-cuda
+409,total-generalized-variation-stereo-matching-pipeline,GPU implementation of total generalized variation (TGV) stereo matching,22,3,2018-11-19T23:13:11Z,https://github.com/andrewmilson/total-generalized-variation-stereo-matching-pipeline
+410,PSANet_PyTorch,,16,2,2019-01-21T11:34:43Z,https://github.com/cfzd/PSANet_PyTorch
+411,Cahn-Hilliard-CUDA,Cahn Hilliard CUDA (Phase-Field Simulation of Spinodal Decomposition),13,1,2019-07-04T00:32:29Z,https://github.com/myousefi2016/Cahn-Hilliard-CUDA
+412,DOCS-pytorch,Deep Object Co-Segmentation,54,14,2020-08-13T23:27:06Z,https://github.com/ohosseini/DOCS-pytorch
+413,cudaMergeSort,"Highly parallel, GPU-accelerated hybrid mergesort with mmap'd IO",40,6,2019-02-21T00:30:33Z,https://github.com/epixoip/cudaMergeSort
+414,pybind11-cuda,Template for GPU accelerated python libraries,36,7,2023-08-26T21:39:15Z,https://github.com/PWhiddy/pybind11-cuda
+415,ParallelComputationExamples,Examples of MPI and OpenMP (adapted from MPI Tutorial),34,8,2023-09-14T09:19:37Z,https://github.com/akhtyamovpavel/ParallelComputationExamples
+416,SuperPixelPool.pytorch,"superpixel average pooling, superspixel max pooling, pytorch implementations",24,3,2018-11-14T12:09:51Z,https://github.com/idealwei/SuperPixelPool.pytorch
+417,vDNN,,22,9,2018-11-07T09:15:24Z,https://github.com/shriramsb/vDNN
+418,lagomorph, Image Registration and Computational Anatomy in PyTorch,18,4,2021-05-18T15:28:38Z,https://github.com/jacobhinkle/lagomorph
+419,cuda_expm,Matrix exponential in cuda for pytorch and tensorflow,15,3,2018-11-26T13:23:58Z,https://github.com/SkafteNicki/cuda_expm
+420,genetic_gpu,genetic algorithm in CUDA,14,7,2018-12-04T00:48:07Z,https://github.com/justincely/genetic_gpu
+421,cu2rec,CUDA Implementation of Parallel Matrix Factorization Algorithm for Recommender Systems,13,1,2019-04-15T19:06:56Z,https://github.com/nickgreenquist/cu2rec
+422,CUDA-tutorial,,13,1,2018-11-02T02:45:42Z,https://github.com/Alcanderian/CUDA-tutorial
+423,cugraph,cuGraph - RAPIDS Graph Analytics Library,1471,263,2023-12-22T11:11:55Z,https://github.com/rapidsai/cugraph
+424,KNN_CUDA,pytorch knn [cuda version],228,36,2021-12-14T04:04:48Z,https://github.com/unlimblue/KNN_CUDA
+425,RTOW-OptiX,"OptiX version of Pete Shirley's ""Ray Tracing in One Weekend"" (Final Chapter example only)",80,3,2021-09-20T16:16:06Z,https://github.com/ingowald/RTOW-OptiX
+426,wmma_tensorcore_sample,Matrix Multiply-Accumulate with CUDA and WMMA( Tensor Core),75,15,2020-08-18T14:44:24Z,https://github.com/wzsh/wmma_tensorcore_sample
+427,LOQUAT,GPU-accelerated SPH solver for geotechnics,34,10,2019-06-22T08:51:22Z,https://github.com/ChongPengGeotech/LOQUAT
+428,GSWITCH,A pattern-based algorithmic autotuner for graph processing on GPUs.,28,8,2022-12-27T04:41:26Z,https://github.com/PAA-NCIC/GSWITCH
+429,Cuda-Matrix-Multiplication,Matrix Multiplication on GPU using Shared Memory considering Coalescing and Bank Conflicts ,20,16,2022-08-29T13:22:25Z,https://github.com/kberkay/Cuda-Matrix-Multiplication
+430,Unity-TensorRT,Unity + TensorRT integration,13,3,2018-11-27T01:37:00Z,https://github.com/aman-tiwari/Unity-TensorRT
+431,sep-graph," This is the repo of ""SEP-Graph: Finding Shortest Execution Paths for Graph Processing under a Hybrid Framework on GPU""",11,12,2018-12-11T03:55:22Z,https://github.com/SEP-Graph/sep-graph
+432,Deformable-Convolution-V2-PyTorch,Deformable ConvNets V2 (DCNv2) in PyTorch,1369,222,2022-11-18T21:39:26Z,https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch
+433,NextDoor,Graph Sampling using GPU,47,7,2022-03-17T01:50:18Z,https://github.com/plasma-umass/NextDoor
+434,Deformable-ConvNets-v1-v2-caffe,Unofficial caffe implementation of Deformable ConvNet V1 and V2,31,15,2018-12-14T08:41:19Z,https://github.com/zhanglonghao1992/Deformable-ConvNets-v1-v2-caffe
+435,Caffe_Rotate_Pool,Rotate RoI Align and Rotate Position Sensitive RoI Align Operation in Caffe,16,4,2018-12-05T07:19:42Z,https://github.com/HiKapok/Caffe_Rotate_Pool
+436,vdnn-plus-plus,Implementation of vDNN++; an improvement over vDNN,16,11,2018-12-07T09:35:45Z,https://github.com/shriramsb/vdnn-plus-plus
+437,face-deocc-lstm,Robust LSTM-Autoencoders for Face De-Occlusion in the Wild,15,6,2018-12-05T06:24:59Z,https://github.com/zhaofang0627/face-deocc-lstm
+438,AudioKWS,Audio Keyword Search,12,6,2019-05-05T10:32:08Z,https://github.com/taylorlu/AudioKWS
+439,pytorch_nms,CUDA implementation of NMS for PyTorch,81,16,2020-01-20T18:10:26Z,https://github.com/gdlg/pytorch_nms
+440,GpuBTree,"Code for paper ""Engineering a High-Performance GPU B-Tree"" accepted to PPoPP 2019",44,12,2022-06-27T05:26:35Z,https://github.com/owensgroup/GpuBTree
+441,GM-SOP,Gated Mixture Second-order Pooling,19,1,2019-08-05T07:38:06Z,https://github.com/ZilinGao/GM-SOP
+442,CUDA_DigitallyReconstructedRadiographs,GPU accelerated python library for generation of Digitally Reconstructed Radiographs (March 2018),51,16,2019-05-01T23:26:17Z,https://github.com/fabio86d/CUDA_DigitallyReconstructedRadiographs
+443,Universal-Deep-Beamformer-for-Robust-Ultrasound-Imaging,"Computer code and dataset for ""Universal Deep Beamformer for Robust Ultrasound Imaging""",16,7,2019-01-15T03:27:50Z,https://github.com/Shujaat123/Universal-Deep-Beamformer-for-Robust-Ultrasound-Imaging
+444,SlabHash,A warp-oriented dynamic hash table for GPUs,61,15,2023-06-09T03:57:40Z,https://github.com/owensgroup/SlabHash
+445,InSAR-on-Sentinel-1-TOPS-data,GPU-accelerated InSAR processing on Sentinel-1 TOPS data,45,14,2021-06-09T09:28:17Z,https://github.com/a787854/InSAR-on-Sentinel-1-TOPS-data
+446,custrings,[ARCHIVED] GPU String Manipulation --> Moved to cudf,45,38,2019-09-24T16:40:42Z,https://github.com/rapidsai/custrings
+447,Massively-Parallel-GPU-ODE-Solver,GPU accelerated integrator for large number of independent ordinary differential equation systems,28,9,2021-01-25T22:13:15Z,https://github.com/FerencHegedus/Massively-Parallel-GPU-ODE-Solver
+448,cuda-benchmarks,"Collection of CUDA benchmarks, with a focus on unified vs. explicit memory management.",19,2,2019-10-15T13:36:07Z,https://github.com/xnd-project/cuda-benchmarks
+449,Synchronized-BatchNorm-PyTorch,Synchronized BatchNorm in PyTorch 1.0,15,7,2019-01-18T07:38:57Z,https://github.com/ytoon/Synchronized-BatchNorm-PyTorch
+450,flo,"Implementation of Conformal curvature flow using spin transformations, to achieve a spherical embedding",15,1,2023-11-15T12:50:51Z,https://github.com/nitronoid/flo
+451,grnn,,12,8,2019-06-20T23:22:44Z,https://github.com/cmikeh2/grnn
+452,PyTorch-EMDLoss,PyTorch 1.0 implementation of the approximate Earth Mover's Distance,128,12,2019-06-05T07:23:12Z,https://github.com/meder411/PyTorch-EMDLoss
+453,spmv-cuda,Implementation and analysis of five different GPU based SPMV algorithms in CUDA,29,14,2019-02-05T04:06:34Z,https://github.com/poojahira/spmv-cuda
+454,CUDA_FDTD_2D_acoustic_wave_propagation,"Acoustic wave propagation in 2D domain using CUDA, O(2,8). Solve second order wave equation in time domain using finite-differences.",24,11,2019-03-29T11:32:38Z,https://github.com/ovcharenkoo/CUDA_FDTD_2D_acoustic_wave_propagation
+455,MpRL-for-person-re-ID,"Code for paper ""Multi-Pseudo Regularized Label for Generated Data in Person Re-Identification""",18,5,2021-02-04T06:43:34Z,https://github.com/Huang-3/MpRL-for-person-re-ID
+456,playne-equivalence-algorithm,,14,2,2019-02-07T23:37:36Z,https://github.com/DanielPlayne/playne-equivalence-algorithm
+457,deep-high-resolution-net.pytorch,"The project is an official implementation of our CVPR2019 paper ""Deep High-Resolution Representation Learning for Human Pose Estimation""",4165,908,2022-12-14T04:14:56Z,https://github.com/leoxiaobin/deep-high-resolution-net.pytorch
+458,cuda_programming,"Code from the ""CUDA Crash Course"" YouTube series by CoffeeBeforeArch",546,139,2023-07-19T14:39:54Z,https://github.com/CoffeeBeforeArch/cuda_programming
+459,CGBN,CGBN:   CUDA Accelerated Multiple Precision Arithmetic (Big Num) using Cooperative Groups,156,47,2023-11-14T08:57:39Z,https://github.com/NVlabs/CGBN
+460,torch_sampling,Efficient reservoir sampling implementation for PyTorch,104,7,2021-09-28T13:41:48Z,https://github.com/LeviViana/torch_sampling
+461,cuda-kat,CUDA kernel author's tools,99,7,2022-04-24T20:43:56Z,https://github.com/eyalroz/cuda-kat
+462,PatchMatchCuda,The PatchMatch stereo match algorithm implemented by CUDA.,42,7,2019-03-14T01:14:04Z,https://github.com/nebula-beta/PatchMatchCuda
+463,cuda,"Some CUDA kernels for signal processing (wavelets, convolutions..)",12,1,2020-03-28T13:39:17Z,https://github.com/jopago/cuda
+464,Partial-Order-Pruning,Partial Order Pruning: for  Best Speed/Accuracy Trade-off in Neural Architecture Search,148,25,2020-09-23T09:03:00Z,https://github.com/lixincn2015/Partial-Order-Pruning
+465,deformable_conv2d_pytorch,deformable_conv2d layer implemented in pytorch,63,10,2019-03-04T06:52:38Z,https://github.com/BIGKnight/deformable_conv2d_pytorch
+466,compute-sanitizer-samples,Samples demonstrating how to use the Compute Sanitizer Tools and Public API,38,13,2023-11-06T21:18:53Z,https://github.com/NVIDIA/compute-sanitizer-samples
+467,ICDE2019-GPU-Join,"Implementation of the algorithm described in ""Hardware-conscious Hash-Joins on GPUs"" paper presented in ICDE 2019",32,9,2020-09-18T08:43:02Z,https://github.com/psiul/ICDE2019-GPU-Join
+468,GPUGA,Graphics Processing Units Genetic Algorithm,18,8,2021-03-03T22:33:26Z,https://github.com/brucefan1983/GPUGA
+469,cuKMeans,CUDA implementation of the K-Means clustering algorithm,13,7,2019-03-25T02:13:47Z,https://github.com/alexminnaar/cuKMeans
+470,fast_upsampling,,33,2,2019-05-01T21:58:16Z,https://github.com/mkolod/fast_upsampling
+471,torchKNN,KNN implement in Pytorch 1.0 including both cpu version and gpu version,21,6,2023-10-22T14:08:59Z,https://github.com/foolyc/torchKNN
+472,CudaRayTracer,GPU Accelerated Ray Tracer using CUDA and C++,17,1,2020-02-20T03:35:06Z,https://github.com/boonemiller/CudaRayTracer
+473,distance-transform-cuda,CUDA implementation of Meijster's parallel algorithm for calculating the distance transform of a 2D image,12,1,2019-03-18T01:03:40Z,https://github.com/1danielcoelho/distance-transform-cuda
+474,GANet,GA-Net: Guided Aggregation Net for End-to-end Stereo Matching,533,136,2020-04-15T11:23:47Z,https://github.com/feihuzhang/GANet
+475,gpu-topk,Efficient Top-K implementation on the GPU,123,19,2019-04-09T01:24:29Z,https://github.com/anilshanbhag/gpu-topk
+476,ADMM-CSNet,Matlab code for ADMM-CSNet,66,31,2019-04-10T16:42:56Z,https://github.com/yangyan92/ADMM-CSNet
+477,CUDA-PCA-jacobi,CUDA C implementation of Principal Component Analysis (PCA) through Singular Value Decomposition (SVD) using a highly parallelisable version of the Jacobi eigenvalue algorithm.,23,3,2019-05-10T09:54:39Z,https://github.com/arneish/CUDA-PCA-jacobi
+478,cv_ops_pytorch,"roi_align_rotate, roi, nms, rotate, pytorch",19,2,2019-04-14T10:38:37Z,https://github.com/xuyongzhi/cv_ops_pytorch
+479,CARAFE,A PyTorch implementation of CARAFE based on ICCV 2019 paper “CARAFE: Content-Aware ReAssembly of FEatures”,14,4,2020-05-21T17:06:13Z,https://github.com/leftthomas/CARAFE
+480,cudnn-benchmark,cudnn convolution algorithms benchmark,11,3,2019-04-27T20:27:45Z,https://github.com/Slimakanzer/cudnn-benchmark
+481,music-translation,A UNIVERSAL MUSIC TRANSLATION NETWORK - a method for translating music across musical instruments and styles.,452,74,2021-08-15T15:03:37Z,https://github.com/facebookresearch/music-translation
+482,CUDA-notes,高性能编程 笔记,120,32,2022-05-20T07:42:25Z,https://github.com/littlebearsama/CUDA-notes
+483,MPI_ping_pong,This tutorial demonstrates how to use CUDA-Aware MPI,25,4,2023-05-16T18:51:37Z,https://github.com/olcf-tutorials/MPI_ping_pong
+484,Rotated_ROIAlign,"Rotated ROIAlign in pytorch, implemented with CUDA",22,3,2019-10-13T06:28:55Z,https://github.com/looput/Rotated_ROIAlign
+485,blaze_cuda,WIP · CUDA compatibility for Blaze · https://bitbucket.org/blaze-lib/blaze,14,3,2019-11-18T21:02:52Z,https://github.com/STEllAR-GROUP/blaze_cuda
+486,CUDA-Programming,Sample codes for my CUDA programming book,1187,275,2023-07-27T12:20:22Z,https://github.com/brucefan1983/CUDA-Programming
+487,CUDALibrarySamples,CUDA Library Samples,1006,255,2023-12-19T09:08:41Z,https://github.com/NVIDIA/CUDALibrarySamples
+488,CPP-Fluid-Particles,"my own implementation of the WCSPH, DFSPH and PBD fluid solvers using CUDA and C++",203,34,2019-07-11T02:33:53Z,https://github.com/zhai-xiao/CPP-Fluid-Particles
+489,GPU-lossless-compression,GPU-Accelerated Lossless Data Compressors Survey,103,9,2020-09-10T04:27:38Z,https://github.com/dingwentao/GPU-lossless-compression
+490,GPULightmass,Luoshuang's GPULightmass for UE4,75,20,2019-05-05T00:14:09Z,https://github.com/AlanIWBFT/GPULightmass
+491,CUDA_CCL,A Connected Component Labelling algorithm implemented in CUDA,24,4,2021-09-30T07:46:23Z,https://github.com/FolkeV/CUDA_CCL
+492,psicnn,Octree guided cnn with spherical kernels for 3D point clouds,20,5,2019-05-16T03:00:12Z,https://github.com/EnyaHermite/psicnn
+493,Batched-SpMM,New batched algorithm for sparse matrix-matrix multiplication (SpMM),15,6,2019-05-07T12:59:35Z,https://github.com/YusukeNagasaka/Batched-SpMM
+494,ACMM,Multi-Scale Geometric Consistency Guided Multi-View Stereo,140,26,2023-10-16T01:44:28Z,https://github.com/GhiXu/ACMM
+495,cuda_spatial_deform,"A fast tool to do image augmentation on GPU(especially elastic_deform), can be helpful to research on Medical Image.",130,25,2022-11-22T04:32:10Z,https://github.com/qsyao/cuda_spatial_deform
+496,cuNSearch,A C++/CUDA library to efficiently compute neighborhood information on the GPU for 3D point clouds within a fixed radius.,77,23,2022-11-30T07:39:31Z,https://github.com/InteractiveComputerGraphics/cuNSearch
+497,AtSNE,Anchor-t-SNE for large-scale and high-dimension vector visualization,54,10,2019-09-08T19:22:24Z,https://github.com/ZJULearning/AtSNE
+498,A-star-CUDA,A* implementation for NVIDIA GPU,42,14,2020-09-21T09:04:24Z,https://github.com/jbujak/A-star-CUDA
+499,rccl-tests,RCCL Performance Benchmark Tests,21,23,2023-12-06T23:24:37Z,https://github.com/ROCmSoftwarePlatform/rccl-tests
+500,robust-fit,An implementation of the paper Gradient Outlier Removal for Gradient-Domain Path Tracing,12,4,2019-05-30T08:15:22Z,https://github.com/CGLab-GIST/robust-fit
+501,ST-RSBP,,11,2,2020-10-01T22:57:45Z,https://github.com/stonezwr/ST-RSBP
+502,GenomeWorks,SDK for GPU accelerated genome assembly and analysis,270,78,2022-06-22T02:24:48Z,https://github.com/NVIDIA-Genomics-Research/GenomeWorks
+503,torch-mesh-isect,,263,68,2022-10-05T09:11:04Z,https://github.com/vchoutas/torch-mesh-isect
+504,GIouloss_CIouloss_caffe,Caffe version Generalized & Distance & Complete Iou loss Implementation for Faster RCNN/FPN bbox regression,44,13,2019-12-09T11:46:29Z,https://github.com/RuiminChen/GIouloss_CIouloss_caffe
+505,belle_cuda,Implementation of various primitives for bellman using CUDA (WIP),28,5,2019-07-20T14:17:55Z,https://github.com/matter-labs-archive/belle_cuda
+506,cuda-nbody,cuda-nbody 优化,26,11,2019-06-21T01:02:07Z,https://github.com/AlexZFX/cuda-nbody
+507,ICCVW2017-DenseFaceAlignment,http://cvlab.cse.msu.edu/project-pifa.html,25,4,2019-07-09T21:24:07Z,https://github.com/yaojieliu/ICCVW2017-DenseFaceAlignment
+508,Aquarius,A Fluid Simulator on GPU,25,2,2021-07-01T03:52:31Z,https://github.com/AmesingFlank/Aquarius
+509,graphCut,Graph Cut Algorithm in CUDA,21,4,2019-06-01T18:36:38Z,https://github.com/metthueshoo/graphCut
+510,raft,RAFT contains fundamental widely-used algorithms and primitives for machine learning and information retrieval. The algorithms are CUDA-accelerated and form building blocks for more easily writing high performance applications.,495,144,2023-12-22T05:43:53Z,https://github.com/rapidsai/raft
+511,ising-gpu,GPU-accelerated Monte Carlo simulations of 2D Ising Model,35,21,2023-11-22T20:40:28Z,https://github.com/NVIDIA/ising-gpu
+512,cuhornet,,24,24,2023-12-12T18:47:14Z,https://github.com/rapidsai/cuhornet
+513,PSROIAlign-Multi-Batch-PyTorch,PSROIAlign with multi-batch training support in PyTorch,23,2,2019-06-20T15:44:32Z,https://github.com/McDo/PSROIAlign-Multi-Batch-PyTorch
+514,reversible-inductive-construction,Discrete Object Generation with Reversible Inductive Construction (NeurIPS 2019),30,4,2021-02-28T20:34:00Z,https://github.com/PrincetonLIPS/reversible-inductive-construction
+515,miluphcuda,smoothed particle hydrodynamics code,28,9,2023-10-24T15:52:34Z,https://github.com/christophmschaefer/miluphcuda
+516,libnms,"libnms.so for object detection, can be use in libtorch or caffe or nccn or onnx or TensorRT",17,1,2019-07-05T08:54:44Z,https://github.com/lucasjinreal/libnms
+517,GPU_Microbenchmark,,17,3,2022-06-24T17:38:10Z,https://github.com/shen203/GPU_Microbenchmark
+518,DZip,Compression,17,4,2020-07-01T21:34:28Z,https://github.com/mohit1997/DZip
+519,CUDA,useful cuda code .,39,7,2022-03-11T08:06:31Z,https://github.com/ming71/CUDA
+520,OptixInOneWeekend,,31,2,2019-12-07T20:46:52Z,https://github.com/trevordblack/OptixInOneWeekend
+521,wrox-pro-cuda-c,"Sample code from the book ""Professional CUDA C Programming""",23,15,2023-05-23T12:09:44Z,https://github.com/kriegalex/wrox-pro-cuda-c
+522,k4a_cuda,,18,1,2019-08-02T18:12:40Z,https://github.com/conatsera/k4a_cuda
+523,ParallelSpikeSim,GPU accelerated spiking neural network simulator,13,1,2021-03-23T07:48:18Z,https://github.com/xueyuan-she/ParallelSpikeSim
+524,lbvh,an implementation of parallel linear BVH (LBVH) on GPU,138,21,2020-06-08T16:11:19Z,https://github.com/ToruNiina/lbvh
+525,Res2Net-Pose-Estimation,Res2Net for Pose Estimation using Simple Baselines as the baseline,35,6,2021-10-12T23:00:10Z,https://github.com/Res2Net/Res2Net-Pose-Estimation
+526,tsm2x-imp,Implementation of TSM2L and TSM2R -- High-Performance Tall-and-Skinny Matrix-Matrix Multiplication Algorithms for CUDA,27,9,2020-07-28T05:34:18Z,https://github.com/codyjrivera/tsm2x-imp
+527,Pose-Track-Solutions,DeepBlue AI Team's Winner Solutions for CVWC 2019 Tiger Pose Track Challenge,17,3,2019-08-05T02:20:12Z,https://github.com/dbofseuofhust/Pose-Track-Solutions
+528,fast-human-pose-estimation.pytorch,"Official pytorch Code for CVPR2019 paper ""Fast Human Pose Estimation"" https://arxiv.org/abs/1811.05419",389,67,2022-09-16T07:27:38Z,https://github.com/ilovepose/fast-human-pose-estimation.pytorch
+529,HRNet-Human-Pose-Estimation,This repo is copied from https://github.com/leoxiaobin/deep-high-resolution-net.pytorch,218,65,2021-10-12T22:58:49Z,https://github.com/HRNet/HRNet-Human-Pose-Estimation
+530,Waveglow_Inference_in_CUDA,C++ Code to run waveglow inference in cuda ,129,44,2019-09-14T06:29:24Z,https://github.com/Saurabh-29/Waveglow_Inference_in_CUDA
+531,tensorrt-zoo,"openpose, yolov3 with tiny-tensorrt",86,26,2021-04-23T10:31:21Z,https://github.com/zerollzeng/tensorrt-zoo
+532,cuda-hashing-algos,A Collection of Hashing Algorithms Implemented In CUDA,43,14,2019-08-20T03:03:43Z,https://github.com/mochimodev/cuda-hashing-algos
+533,ChamferDistancePytorch,Chamfer Distance in Pytorch with f-score,282,43,2021-01-08T14:58:41Z,https://github.com/ThibaultGROUEIX/ChamferDistancePytorch
+534,PyTorchEMD,PyTorch Wrapper for Earth-Mover-Distance (EMD) for 3D point cloud regression,256,52,2023-04-18T09:06:44Z,https://github.com/daerduoCarey/PyTorchEMD
+535,chamferdist,Pytorch package to compute Chamfer distance between point sets (pointclouds).,245,45,2023-11-02T01:22:47Z,https://github.com/krrish94/chamferdist
+536,CenterNet-MobileNetV3,CenterNet with MobileNetV3 backboned helmet detection based on PyTorch with inference code only.,50,18,2021-07-13T05:42:59Z,https://github.com/YaphetS-X/CenterNet-MobileNetV3
+537,cuRadiomics,Extracting Radiomic Features using CUDA for GPU-acceleration,20,4,2021-06-04T17:17:41Z,https://github.com/jiaoyining/cuRadiomics
+538,cupc,cuPC: CUDA-based Parallel PC Algorithm for Causal Structure Learning on GPU,15,5,2021-03-19T13:36:30Z,https://github.com/LIS-Laboratory/cupc
+539,SBNN,Singular Binarized Neural Network based on GPU Bit Operations (see our SC-19 paper),11,4,2020-12-09T21:21:28Z,https://github.com/uuudown/SBNN
+540,vfs,Variational Fisheye Stereo,49,18,2023-06-27T15:21:40Z,https://github.com/menandro/vfs
+541,matrix_format_performance,,24,7,2019-11-16T19:00:10Z,https://github.com/gevtushenko/matrix_format_performance
+542,CUDA-ScanMatcher-ICP,A high performance CUDA implementation of Scan Matching via the Iterative Closest Point Algorithm,147,22,2022-10-04T14:54:55Z,https://github.com/botforge/CUDA-ScanMatcher-ICP
+543,CUDA-SfM,A structure from motion implemention in C++ and accelerated using CUDA,43,7,2019-10-12T03:06:42Z,https://github.com/Black-Phoenix/CUDA-SfM
+544,Learning-CUDA-10-Programming,"Learning CUDA 10 Programming, published by Packt",34,13,2022-10-31T07:56:22Z,https://github.com/PacktPublishing/Learning-CUDA-10-Programming
+545,LOGAN,LOGAN: High-Performance Multi GPU-Based X-Drop Long-Read Alignment.,22,4,2022-09-23T09:39:52Z,https://github.com/albertozeni/LOGAN
+546,FluidSimulation,fluid simulation on C++ with CUDA and SFML ,22,1,2020-11-24T14:44:20Z,https://github.com/MomoDeve/FluidSimulation
+547,SAR_CD_DCNet,"Code is for our paper ""Change Detection from Synthetic Aperture Radar Images Based on Channel Weighting-Based Deep Cascade Network,"" IEEE JSTARS 2019",16,8,2021-04-06T05:24:42Z,https://github.com/summitgao/SAR_CD_DCNet
+548,CenterNet2TorchScript,centernet pytorch model to torch script model,30,7,2020-02-26T09:58:26Z,https://github.com/xi11xi19/CenterNet2TorchScript
+549,gpuPTXModel,GPU Static Modeling using PTX and Deep Structured Learning,12,2,2020-04-01T13:41:50Z,https://github.com/hpc-ulisboa/gpuPTXModel
+550,DarkPose,Distribution-Aware Coordinate Representation for Human Pose Estimation,533,79,2021-10-12T23:06:02Z,https://github.com/ilovepose/DarkPose
+551,pytorch-edit-distance,Levenshtein edit-distance on PyTorch and CUDA,93,14,2023-01-24T21:06:51Z,https://github.com/1ytic/pytorch-edit-distance
+552,solanity,GPU based Solana ed25519 vanity key scanner.,36,6,2019-11-05T21:32:09Z,https://github.com/ChorusOne/solanity
+553,pbd-crowd-sim,Implementation of Position-based crowd simulation by T. Weiss et al.,19,4,2020-09-08T20:29:05Z,https://github.com/tomerwei/pbd-crowd-sim
+554,mpres-blas,Multiple-precision GPU accelerated linear algebra routines (dense and sparse) based on residue number system,16,2,2022-12-19T06:11:27Z,https://github.com/kisupov/mpres-blas
+555,ACMP,Planar Prior Assisted PatchMatch Multi-View Stereo,172,29,2022-11-13T03:45:04Z,https://github.com/GhiXu/ACMP
+556,wmma_extension,An extension library of WMMA API (Tensor Core API),57,9,2023-11-24T14:27:17Z,https://github.com/wmmae/wmma_extension
+557,2D_and_3D_elastic_reverse_time_migration,2D and 3D elastic reverse time migration using wavefield decomposition and vector-based excitation amplitude imaging condition. ,13,3,2020-06-29T14:48:11Z,https://github.com/GeophysicsLab/2D_and_3D_elastic_reverse_time_migration
+558,ggnn,GGNN: State of the Art Graph-based GPU Nearest Neighbor Search,128,19,2021-03-16T10:25:38Z,https://github.com/cgtuebingen/ggnn
+559,evert-cuda,A CUDA port of Thurston's evert that path traces a sphere being turned inside out,16,3,2023-02-02T06:04:51Z,https://github.com/etale-cohomology/evert-cuda
+560,voice-conversion,Voice conversion using deep adversarial learning,15,7,2021-10-29T16:12:44Z,https://github.com/hubertsiuzdak/voice-conversion
+561,GGRG-GPS-SDR,A repository for PyGNSS and CUDARecv -- open-source software defined GPS receivers developed by the Grace Gao Research Group.,11,7,2020-02-10T22:47:22Z,https://github.com/mjp5578/GGRG-GPS-SDR
+562,HRNet-for-Fashion-Landmark-Estimation.PyTorch,[DeepFashion2 Challenge] Fashion Landmark Estimation with HRNet,119,20,2021-12-28T06:54:31Z,https://github.com/svip-lab/HRNet-for-Fashion-Landmark-Estimation.PyTorch
+563,tSparse,A GPU algorithm for sparse matrix-matrix multiplication,56,15,2020-10-01T14:46:02Z,https://github.com/oresths/tSparse
+564,CUDA_study,,41,23,2019-12-20T06:06:31Z,https://github.com/ZihaoZhao/CUDA_study
+565,NPB-GPU,NAS Parallel Benchmarks for GPU,16,4,2022-12-01T20:10:32Z,https://github.com/GMAP/NPB-GPU
+566,lattice_net,Fast Point Cloud Segmentation Using Permutohedral Lattices,15,5,2023-03-20T22:48:47Z,https://github.com/RaduAlexandru/lattice_net
+567,cuda-training-series,Training materials associated with NVIDIA's CUDA Training Series (www.olcf.ornl.gov/cuda-training-series/),289,134,2022-04-04T23:46:10Z,https://github.com/olcf/cuda-training-series
+568,CUDA_gemm,A simple high performance CUDA GEMM implementation.,219,25,2023-09-18T05:39:57Z,https://github.com/Cjkkkk/CUDA_gemm
+569,spECK,Efficient SpGEMM on GPU using CUDA and CSR,50,13,2023-07-18T09:43:55Z,https://github.com/GPUPeople/spECK
+570,Programming_Massively_Parallel_Processors,CUDA 6大并行计算模式 代码与笔记,46,7,2020-07-30T12:53:30Z,https://github.com/Syencil/Programming_Massively_Parallel_Processors
+571,deformable-kernels,Deforming kernels to adapt towards object deformation. In ICLR 2020.,201,29,2020-02-12T18:57:37Z,https://github.com/hangg7/deformable-kernels
+572,lpn-pytorch,,76,20,2023-01-13T14:48:35Z,https://github.com/zhang943/lpn-pytorch
+573,ACSpGEMM,"Repository holding the code base to AC-SpGEMM : ""Adaptive Sparse Matrix-Matrix Multiplication on the GPU""",26,8,2020-07-07T10:47:43Z,https://github.com/GPUPeople/ACSpGEMM
+574,torchscript-to-tvm,,63,17,2023-03-04T21:38:53Z,https://github.com/masahi/torchscript-to-tvm
+575,seed-reversal-gpu,"GPU code, the first stage in the pipeline to reverse the pack.png seed.",31,8,2020-08-12T07:40:06Z,https://github.com/pack-png-mods/seed-reversal-gpu
+576,cuASR,cuASR: CUDA Algebra for Semirings,27,3,2022-08-22T00:04:08Z,https://github.com/hpcgarage/cuASR
+577,chunk-to-world-seed,Converts chunk seeds to world seeds,17,4,2020-08-15T13:50:40Z,https://github.com/pack-png-mods/chunk-to-world-seed
+578,depthwise-conv-pytorch,Faster depthwise convolutions for PyTorch,53,1,2020-02-20T23:49:40Z,https://github.com/rosinality/depthwise-conv-pytorch
+579,Kaktoos,CUDA program to find the tallest possible cacti in Minecraft.,21,12,2020-04-19T17:30:28Z,https://github.com/KaptainWutax/Kaktoos
+580,Cuda-Find-Max-Using-Parallel-Reduction,Benchmarks different cuda implementations of maximum-value algorithms. Uses Parallel Reduction design pattern. ,17,3,2020-02-24T14:16:57Z,https://github.com/MaxKotlan/Cuda-Find-Max-Using-Parallel-Reduction
+581,CUDA_radix_sort,implementation of floating-point radix sorting based on CUDA,14,3,2020-02-10T10:52:01Z,https://github.com/sty16/CUDA_radix_sort
+582,realslam,SLAM library for RealSense T265 and D435i sensors,13,5,2021-05-24T06:32:09Z,https://github.com/menandro/realslam
+583,SimpleGPUHashTable,A simple GPU hash table implemented in CUDA using lock free techniques,341,35,2023-09-12T16:31:14Z,https://github.com/nosferalatu/SimpleGPUHashTable
+584,modulated-deform-conv,deformable convolution 2D 3D DeformableConvolution DeformConv Modulated Pytorch CUDA,126,16,2021-12-14T09:16:24Z,https://github.com/CHONSPQX/modulated-deform-conv
+585,pyronn-torch,PyTorch bindings of PYRO-NN (https://github.com/csyben/PYRO-NN),18,8,2023-04-13T13:41:01Z,https://github.com/theHamsta/pyronn-torch
+586,SSRLCV,The UGA SSRL's Computer Vision Software Collection,16,5,2022-11-10T04:12:59Z,https://github.com/uga-ssrl/SSRLCV
+587,dynconv,Code for Dynamic Convolutions: Exploiting Spatial Sparsity for Faster Inference (CVPR2020),120,14,2022-01-17T11:57:29Z,https://github.com/thomasverelst/dynconv
+588,Subway,Out-of-GPU-Memory Graph Processing with Minimal Data Transfer,44,19,2022-11-15T06:21:32Z,https://github.com/AutomataLab/Subway
+589,Object-Detection-Using-YOLO-v2-Deep-Learning,MATLAB example of deep learning based object detection using Yolo v2 with ResNet50 Base Network,35,13,2020-09-29T19:57:45Z,https://github.com/matlab-deep-learning/Object-Detection-Using-YOLO-v2-Deep-Learning
+590,Lattice-Boltzmann-Method-GPU,"This program is a GPU version 3D Lattice Boltzmann Method Computational Fluid Dynamics solver to simulate steady/unsteady 3D single-phase flows. Compared with CPU serial code, this GPU code is >200 times faster and has same accuracy. To run it, a NVIDIA GPU with CUDA Toolkit is a must",21,2,2021-06-05T05:02:12Z,https://github.com/Xinhuan-Imperial/Lattice-Boltzmann-Method-GPU
+591,nvidia-performance-tools,"Instructions, Docker images, and examples for Nsight Compute and Nsight Systems",117,14,2020-05-19T12:52:34Z,https://github.com/cwpearson/nvidia-performance-tools
+592,cuda_learning,Learning cuda codes,69,20,2021-03-23T09:58:07Z,https://github.com/keefeWu/cuda_learning
+593,cudaLearningMaterials,cuda编程学习资料,29,8,2020-04-04T10:32:51Z,https://github.com/SeventhBlue/cudaLearningMaterials
+594,GSI,"GPU-friendly Subgraph Isomorphism, published in ICDE 2020",26,14,2023-03-05T14:36:56Z,https://github.com/pkumod/GSI
+595,k2,"FSA/FST algorithms, differentiable, with PyTorch compatibility.",985,243,2023-12-21T02:38:57Z,https://github.com/k2-fsa/k2
+596,ge-spmm,,88,11,2021-07-03T07:29:03Z,https://github.com/hgyhungry/ge-spmm
+597,PAMTRI,PAMTRI: Pose-Aware Multi-Task Learning for Vehicle Re-Identification (ICCV 2019) - Official PyTorch Implementation,70,16,2022-11-22T02:42:43Z,https://github.com/NVlabs/PAMTRI
+598,C-SAW,A Framework for Graph Sampling and Random Walk on GPUs.,35,7,2022-10-02T07:12:23Z,https://github.com/concept-inversion/C-SAW
+599,CARE,CARE: Context-Aware Read Error correction for Illumina reads,17,1,2023-11-01T21:42:15Z,https://github.com/fkallen/CARE
+600,SuperVoxelCuda,Cuda implementation of 3D SuperVoxel clustering,14,4,2020-04-14T16:47:18Z,https://github.com/shishenghuang/SuperVoxelCuda
+601,warp-ctc-crf,An extension of thu-spmi/CAT which contains a full-fledged implementation of CTC-CRF for Tensorflow.,12,4,2021-07-05T02:07:46Z,https://github.com/TeaPoly/warp-ctc-crf
+602,multicoresysu2020,,11,6,2020-08-04T12:35:17Z,https://github.com/lukeluocn/multicoresysu2020
+603,deepfashion2-kps-agg-finetune,1st place solution (Team StylingAI Inc. & PKU AIIC) for CVPR 2020 DeepFashion2 Clothes Landmark Detection Track. Aggregation and Finetuning for Clothes Landmark Detection,85,12,2020-05-06T16:11:38Z,https://github.com/lzhbrian/deepfashion2-kps-agg-finetune
+604,Trident-Dehazing-Network,NTIRE 2020 NonHomogeneous Dehazing Challenge (CVPR Workshop 2020) 1st Solution.,46,10,2021-01-03T14:19:52Z,https://github.com/lj1995-computer-vision/Trident-Dehazing-Network
+605,maxflow-cuda,Implementation of the maximum network flow problem in CUDA.,22,6,2020-12-20T03:19:06Z,https://github.com/PratyushVM/maxflow-cuda
+606,ConvolutionBuildingBlocks,GEMM and Winograd based convolutions using CUTLASS,18,3,2020-07-15T12:59:30Z,https://github.com/YashasSamaga/ConvolutionBuildingBlocks
+607,tensor-cores-numerical-behavior,Test suite for probing the numerical behavior of NVIDIA tensor cores,16,10,2023-12-19T12:04:30Z,https://github.com/north-numerical-computing/tensor-cores-numerical-behavior
+608,cufinufft,"Nonuniform fast Fourier transforms of types 1 and 2, in 1D, 2D, and 3D, on the GPU",78,16,2023-12-08T22:29:44Z,https://github.com/flatironinstitute/cufinufft
+609,G3,G3: A Programmable GNN Training System on GPU,41,8,2020-08-29T03:48:56Z,https://github.com/Xtra-Computing/G3
+610,hnms,Hashing-based Non-Maximum Suppression,27,4,2020-09-16T03:06:21Z,https://github.com/microsoft/hnms
+611,MiniVox,"Code for our ACML and INTERSPEECH papers: ""Speaker Diarization as a Fully Online Bandit Learning Problem in MiniVox"". ",23,5,2021-09-20T05:04:02Z,https://github.com/doerlbh/MiniVox
+612,cuDTW,cuDTW++: Ultra-Fast Dynamic Time Warping on CUDA-enabled GPUs,18,2,2020-05-11T11:56:12Z,https://github.com/asbschmidt/cuDTW
+613,nextdoor-experiments,,11,1,2022-12-08T08:04:49Z,https://github.com/abhijangda/nextdoor-experiments
+614,claymore,,188,30,2023-05-22T14:50:08Z,https://github.com/penn-graphics-research/claymore
+615,lattice_net,Fast Point Cloud Segmentation Using Permutohedral Lattices,45,2,2023-03-20T23:02:38Z,https://github.com/AIS-Bonn/lattice_net
+616,TCBNN,,23,8,2022-07-25T15:05:30Z,https://github.com/pnnl/TCBNN
+617,NavLab-DPE-SDR,CUDARecv and PyGNSS: open-source DPE-based GPS receiver software developed by the Stanford NAV Laboratory,30,11,2021-05-07T22:37:11Z,https://github.com/Stanford-NavLab/NavLab-DPE-SDR
+618,cuda-kmeans,"A novell, highly-optimized CUDA implementation of k-means algorithm.",16,6,2022-03-03T14:02:06Z,https://github.com/krulis-martin/cuda-kmeans
+619,GOSH,"An ultra-fast, GPU-based large graph embedding algorithm utilizing a novel coarsening algorithm requiring not more than a single GPU.",16,4,2022-01-03T14:44:30Z,https://github.com/SU-HPC/GOSH
+620,humanpose.pytorch,Lightweight mobile humanpose estimation project,13,4,2020-08-18T16:10:23Z,https://github.com/cavalleria/humanpose.pytorch
+621,BiLSTM-OCR-PyTorch,BiLSTM WarpCTC OCR Pytorch,11,4,2020-06-12T06:36:56Z,https://github.com/dlunion/BiLSTM-OCR-PyTorch
+622,Shape-Measure,PyTorch version of shape evaluation metrics,22,3,2020-06-28T02:48:27Z,https://github.com/FengZicai/Shape-Measure
+623,FRNN,Fixed Radius Nearest Neighbor Search on GPU,141,20,2023-12-20T08:14:18Z,https://github.com/lxxue/FRNN
+624,rnnt_decoder_cuda,An efficient implementation of RNN-T Prefix Beam Search in C++/CUDA.,66,9,2020-12-08T14:43:26Z,https://github.com/iamjanvijay/rnnt_decoder_cuda
+625,CARAFE,This Repo is the official CUDA implementation of ICCV 2019 Oral paper for CARAFE: Content-Aware ReAssembly of FEatures,53,7,2023-03-29T13:15:55Z,https://github.com/myownskyW7/CARAFE
+626,Pytorch-TensorRT-Plugins,Useful plugins for Pytorch1.5+ and TensorRT7/8.,37,4,2021-10-18T09:02:04Z,https://github.com/SsisyphusTao/Pytorch-TensorRT-Plugins
+627,CyCNN,,27,8,2022-11-15T01:50:23Z,https://github.com/mcrl/CyCNN
+628,DAEC,Train Your Data Processor: Distribution-Aware and Error-Compensation Coordinate Decoding for Human Pose Estimation.,15,2,2021-10-12T23:06:51Z,https://github.com/fyang235/DAEC
+629,CUDA-Parallel-Prefix-Sum,Parallel Prefix Sum (Scan) with CUDA.,13,2,2020-07-17T17:39:48Z,https://github.com/TVycas/CUDA-Parallel-Prefix-Sum
+630,ADMIRE,,11,5,2022-05-12T07:49:51Z,https://github.com/VU-BEAM-Lab/ADMIRE
+631,gpu_graph_algorithms,"Term Project, Parallel Algorithms, Summer 2020, The University of Texas, Austin",23,3,2021-03-26T03:02:52Z,https://github.com/sengorajkumar/gpu_graph_algorithms
+632,MarchingCubes,An implemention of parallel marching cubes algorithm by CUDA,11,1,2021-09-23T15:48:25Z,https://github.com/LRLVEC/MarchingCubes
+633,CUDA_CNN_ON_HPC,,23,3,2020-08-20T19:44:37Z,https://github.com/erics666/CUDA_CNN_ON_HPC
+634,MLSSNet,Learning Deep Multi-Level Similarity for Thermal Infrared Object Tracking,12,4,2021-03-18T04:55:25Z,https://github.com/QiaoLiuHit/MLSSNet
+635,Professional-CUDA-C-Programming,Source and solution codes for Professional CUDA C Programming book.,12,6,2020-08-20T01:52:35Z,https://github.com/HangJie720/Professional-CUDA-C-Programming
+636,gpu-nms,"This repository contains the CUDA implementation of the paper ""Work-efficient Parallel Non-Maximum Suppression Kernels"".",11,4,2020-08-21T09:46:43Z,https://github.com/hertasecurity/gpu-nms
+637,torchsparse,TorchSparse: Efficient Training and Inference Framework for Sparse Convolution on GPUs.,987,117,2023-11-24T05:49:23Z,https://github.com/mit-han-lab/torchsparse
+638,CorrelationLayer,Pure Pytorch implementation of Correlation Layer that commonly used in learning based optical flow estimator,30,3,2021-10-27T04:17:43Z,https://github.com/limacv/CorrelationLayer
+639,memorable-pgpgen,Fast Memorable PGP key ID Generator using GPU. PGP 靓号生成器，动感 GPU 超速算号,15,1,2020-08-30T16:43:01Z,https://github.com/Victrid/memorable-pgpgen
+640,dcnv2_trt,TensorRT plugin forDCNv2 layer in ONNX model,55,14,2020-09-28T17:38:27Z,https://github.com/eweill-nv/dcnv2_trt
+641,rational_activations,Rational Activation Functions - Replacing Padé Activation Units,51,11,2023-02-02T09:34:42Z,https://github.com/ml-research/rational_activations
+642,CUDA-Guide,CUDA Guide,36,3,2023-06-17T20:07:22Z,https://github.com/mikeroyal/CUDA-Guide
+643,3D-Voronoi-GPU,"Source code for paper ""Parallel Computation of 3D Clipped Voronoi Diagrams""",22,6,2020-09-23T06:50:33Z,https://github.com/xh-liu-tech/3D-Voronoi-GPU
+644,EMOGI,,11,4,2020-12-04T21:21:37Z,https://github.com/illinois-impact/EMOGI
+645,DefTet,Learning Deformable Tetrahedral Meshes for 3D Reconstruction (NeurIPS 2020),147,11,2023-10-23T16:54:15Z,https://github.com/nv-tlabs/DefTet
+646,slim,Drop-in replacements for PyTorch nn.Linear for stable learning and inductive priors in physics informed machine learning applications.,16,6,2023-08-19T15:39:44Z,https://github.com/pnnl/slim
+647,supersurfel_fusion,"Dense RGB-D SLAM system RGB-D SLAM articulated around a supersurfel-based 3D representation for fast, lightweight and compact mapping in indoor environment.",54,12,2021-04-29T11:17:12Z,https://github.com/BruceCanovas/supersurfel_fusion
+648,open-cfxmine,Conflux miner,34,19,2020-12-09T06:55:53Z,https://github.com/Conflux-Chain/open-cfxmine
+649,SubgraphMatchGPU,,24,8,2020-10-28T00:07:42Z,https://github.com/guowentian/SubgraphMatchGPU
+650,Zen,optimized realtime harmonic/percussive source separation using the GPU (NVIDIA CUDA) and CPU (Intel IPP),18,2,2023-12-22T11:14:05Z,https://github.com/sevagh/Zen
+651,gpucfr,GPUCFR is a parallel implementation of Counterfactual Regret Minimization (CFR) in C++ and CUDA C for NVIDIA GPUs.,17,4,2021-03-17T13:22:41Z,https://github.com/janrvdolf/gpucfr
+652,bam,,76,17,2023-12-04T16:53:10Z,https://github.com/ZaidQureshi/bam
+653,Tensorrt-CV,Using TensorRT for Inference Model Deployment. ,38,9,2023-12-22T10:26:19Z,https://github.com/col-in-coding/Tensorrt-CV
+654,recommenders-addons,"Additional utils and helpers to extend TensorFlow when build recommendation systems, contributed and maintained by SIG Recommenders.",529,125,2023-12-20T09:03:18Z,https://github.com/tensorflow/recommenders-addons
+655,pmpp__programming_massively_parallel_processors,Examples and exercises from the book Programming Massively Parallel Processors - A Hands-on Approach. David B. Kirk and Wen-mei W. Hwu (Third Edition),12,6,2021-01-21T19:34:30Z,https://github.com/nvixnu/pmpp__programming_massively_parallel_processors
+656,FBTT-Embedding,"This is a Tensor Train based compression library to compress sparse embedding tables used in large-scale machine learning models such as recommendation and natural language processing. We showed this library can reduce the total model size by up to 100x in Facebook’s open sourced DLRM model while achieving same model quality. Our implementation is faster than the state-of-the-art implementations. Existing the state-of-the-art library also decompresses the whole embedding tables on the fly therefore they do not provide memory reduction during runtime of the training. Our library decompresses only the requested rows therefore can provide 10,000 times memory footprint reduction per embedding table. The library also includes a software cache to store a portion of the entries in the table in decompressed format for faster lookup and process.",188,28,2022-07-20T21:30:26Z,https://github.com/facebookresearch/FBTT-Embedding
+657,CUDAMasterclass,Code base for CUDA Masterclass course,24,18,2020-12-12T07:14:07Z,https://github.com/kasunindikaliyanage/CUDAMasterclass
+658,CUDA_AES,Breakthrough AES Performance on CUDA Devices,22,4,2021-12-12T09:14:03Z,https://github.com/cihangirtezcan/CUDA_AES
+659,APNN-TC,,14,13,2021-08-26T18:09:30Z,https://github.com/BoyuanFeng/APNN-TC
+660,AmpereSparseMatmul,study of Ampere' Sparse Matmul,11,3,2021-01-10T15:59:12Z,https://github.com/lenLRX/AmpereSparseMatmul
+661,cuhnsw,CUDA implementation of Hierarchical Navigable Small World Graph algorithm,103,17,2021-04-19T21:16:11Z,https://github.com/js1010/cuhnsw
+662,CUDACommunityMeetup2021,,19,1,2022-02-16T09:35:51Z,https://github.com/CUDACommunity/CUDACommunityMeetup2021
+663,hpc-training-2021,Repository for training material for the 2021 SDSC HPC User Training Course,19,7,2023-04-16T20:54:31Z,https://github.com/sdsc-hpc-training-org/hpc-training-2021
+664,fast-rbd-gradients,"Code supporting the RAL paper ""Accelerating Robot Dynamics Gradients on a CPU, GPU, and FPGA""",18,3,2021-09-14T21:44:45Z,https://github.com/plancherb1/fast-rbd-gradients
+665,CUDA-Programs,Examples from Programming in Parallel with CUDA,62,26,2023-03-17T10:36:41Z,https://github.com/RichardAns/CUDA-Programs
+666,flyvec,"A biologically inspired method to create sparse, binary word vectors",36,7,2021-12-10T18:00:50Z,https://github.com/bhoov/flyvec
+667,Tahoe,Tahoe: Tree Structure-Aware High Performance Inference Engine for Decision Tree Ensemble on GPU,33,6,2022-02-14T23:14:13Z,https://github.com/zhen-xie/Tahoe
+668,CTLIB,A lib of CT projector and back-projector based on PyTorch,31,4,2023-02-25T20:10:40Z,https://github.com/xiawj-hub/CTLIB
+669,gpu-ntt,Number Theoretic Transform Implementation on GPU for FHE Applications,27,4,2021-02-06T11:39:16Z,https://github.com/SU-CISEC/gpu-ntt
+670,EfficientPose,,17,3,2021-01-26T11:21:54Z,https://github.com/hustvl/EfficientPose
+671,hip,,13,4,2022-10-05T12:10:28Z,https://github.com/csc-training/hip
+672,TorchPQ,Approximate nearest neighbor search with product quantization on GPU in pytorch and cuda,190,18,2023-12-12T23:17:26Z,https://github.com/DeMoriarty/TorchPQ
+673,EuroCC_KisOkulu_2021,,15,7,2021-02-09T04:56:20Z,https://github.com/SU-HPC/EuroCC_KisOkulu_2021
+674,VISCOPLASTIC-LBM,"LBM (Lattice Boltzmann method) software for flow simulation, using GPU acceleration",14,1,2023-01-25T17:11:22Z,https://github.com/CERNN/VISCOPLASTIC-LBM
+675,nvbench,CUDA Kernel Benchmarking Library,334,54,2023-12-15T15:46:55Z,https://github.com/NVIDIA/nvbench
+676,Learning_CUDA,,21,8,2021-05-07T03:14:34Z,https://github.com/MARD1NO/Learning_CUDA
+677,SSTVOS,"Training code for ""SSTVOS: Sparse Spatiotemporal Transformers for Video Object Segmentation""",87,2,2021-11-21T23:52:02Z,https://github.com/dukebw/SSTVOS
+678,ACMH,"A simple yet effective PatchMatch MVS method, which is the base model of ACMM and ACMP.",66,15,2022-11-13T03:51:58Z,https://github.com/GhiXu/ACMH
+679,GNNAdvisor_OSDI21,Artifact for OSDI'21 GNNAdvisor: An Adaptive and Efficient Runtime System for GNN Acceleration on GPUs.,55,18,2023-03-02T06:59:05Z,https://github.com/YukeWang96/GNNAdvisor_OSDI21
+680,lietorch,,606,42,2023-10-20T07:39:01Z,https://github.com/princeton-vl/lietorch
+681,di-fusion,[CVPR'21] [Jittor & Pytorch] DI-Fusion: Online Implicit 3D Reconstruction with Deep Priors,119,14,2022-07-12T03:38:34Z,https://github.com/huangjh-pub/di-fusion
+682,vectorSparse,,24,10,2022-08-24T17:27:53Z,https://github.com/apuaaChen/vectorSparse
+683,qml-lightning,Toolkit containing implementations of GPU-accelerated approximate kernel models and efficient atomic representations. Yields accurate models in lightning-fast time.,12,1,2023-10-12T18:50:50Z,https://github.com/nickjbrowning/qml-lightning
+684,Super-resolution-SR-CUDA,High performance SRMD implementation using CUDA.,26,2,2023-03-28T04:50:55Z,https://github.com/MrZihan/Super-resolution-SR-CUDA
+685,Optimizing-SGEMM-on-NVIDIA-Turing-GPUs,Optimizing SGEMM kernel functions on NVIDIA GPUs to a close-to-cuBLAS performance.,190,36,2021-11-28T18:35:33Z,https://github.com/yzhaiustc/Optimizing-SGEMM-on-NVIDIA-Turing-GPUs
+686,TokenPose,Implementation for : TokenPose: Learning Keypoint Tokens for Human Pose Estimation （https://arxiv.org/abs/2104.03516）. Accepted by ICCV 2021.,108,21,2021-08-31T04:39:37Z,https://github.com/leeyegy/TokenPose
+687,CodeSamples,"Code samples for the CUDA tutorial ""CUDA and Applications to Task-based Programming""",59,17,2023-08-14T03:32:59Z,https://github.com/CUDA-Tutorial/CodeSamples
+688,Graphchallenge21,graph challenge 2021,27,3,2021-07-09T03:42:50Z,https://github.com/CGCL-codes/Graphchallenge21
+689,cuda-multigrid,GPU-Accelerated multigrid solver for Poisson's equation in 2D ,15,6,2021-04-25T06:57:17Z,https://github.com/ooreilly/cuda-multigrid
+690,shape_sdf,Simple MLP for representing the SDF of a single shape,12,1,2023-06-30T20:08:12Z,https://github.com/nihalsid/shape_sdf
+691,neural-network-cuda,A neural network from scratch in CUDA/C++,41,8,2023-10-06T14:09:42Z,https://github.com/BobMcDear/neural-network-cuda
+692,AdvMix,"Official code for our CVPR 2021 paper: ""When Human Pose Estimation Meets Robustness: Adversarial Algorithms and Benchmarks"".",28,9,2021-07-06T09:00:33Z,https://github.com/AIprogrammer/AdvMix
+693,tcFFT,,26,9,2021-05-21T12:00:14Z,https://github.com/rox906/tcFFT
+694,cuda,,11,2,2021-11-08T04:01:59Z,https://github.com/nightmare2423/cuda
+695,kilonerf,Code for KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs,455,51,2021-06-16T14:27:56Z,https://github.com/creiser/kilonerf
+696,ROSEFusion,[SIGGRAPH 2021] ROSEFusion is proposed to tackle the difficulties in fast-motion camera tracking using random optimization with depth information only. ,274,40,2022-11-02T13:50:09Z,https://github.com/jzhzhang/ROSEFusion
+697,cuPF,Phase field simulation written in C++,12,4,2023-12-19T02:48:41Z,https://github.com/YigongQin/cuPF
+698,RAMA,,70,12,2023-02-23T16:06:10Z,https://github.com/pawelswoboda/RAMA
+699,non-exp-transmittance-torch,This repository contains a non-exponential transmittance operator that can be used with PyTorch,16,4,2021-06-09T20:46:10Z,https://github.com/dvicini/non-exp-transmittance-torch
+700,dgSPARSE-Lib,PyTorch-Based Fast and Efficient Processing for Various Machine Learning Applications with Diverse Sparsity,86,23,2023-12-04T18:04:14Z,https://github.com/dgSPARSE/dgSPARSE-Lib
+701,ckks-gpu-core,,42,14,2021-07-13T04:03:57Z,https://github.com/scale-snu/ckks-gpu-core
+702,Pytorch-Depthwise-Conv3d,cuda implementation of depthwise conv3d,19,4,2021-07-14T11:44:06Z,https://github.com/gungui98/Pytorch-Depthwise-Conv3d
+703,openCNN,A Winograd Minimal Filter Implementation in CUDA,19,2,2021-08-25T09:10:28Z,https://github.com/UDC-GAC/openCNN
+704,SimCC,[ECCV'2022 Oral] PyTorch implementation for: SimCC: a Simple Coordinate Classification Perspective for Human Pose Estimation (http://arxiv.org/abs/2107.03332). Old name: SimDR,282,27,2022-07-17T08:00:20Z,https://github.com/leeyegy/SimCC
+705,adaPool,[T-IP 2023] Code for exponential adaptive pooling for PyTorch,68,8,2023-03-27T14:17:42Z,https://github.com/alexandrosstergiou/adaPool
+706,pytorch_cmake_example,,16,4,2021-07-15T22:45:18Z,https://github.com/r-barnes/pytorch_cmake_example
+707,cuda_keeloq_brute,Cuda accelerated KeeLoQ Bruteforcer,22,7,2021-07-23T07:28:28Z,https://github.com/neo7530/cuda_keeloq_brute
+708,GSWITCH,,19,92,2021-07-20T08:08:35Z,https://github.com/NCIC-PARALLEL/GSWITCH
+709,universal_memory_allocation,,14,1,2022-04-26T19:23:17Z,https://github.com/apd10/universal_memory_allocation
+710,iGUARD-SOSP21,,14,8,2021-11-06T01:45:43Z,https://github.com/csl-iisc/iGUARD-SOSP21
+711,G-SLIDE,,12,1,2022-01-07T14:07:31Z,https://github.com/PanZaifeng/G-SLIDE
+712,TorchEx,Collection of PyTorch customized operators.,47,4,2023-12-05T13:11:04Z,https://github.com/Abyssaledge/TorchEx
+713,gpu-toolkit,"👨‍💻 🧰 Essential algorithms for GPU hacking with CUDA C++ that I've been researching, reimplementing and refining for quick reference.",14,1,2023-12-14T15:02:56Z,https://github.com/tensorush/gpu-toolkit
+714,tutorial-multi-gpu,"Efficient Distributed GPU Programming for Exascale, an SC/ISC Tutorial",117,39,2023-11-29T15:39:23Z,https://github.com/FZJ-JSC/tutorial-multi-gpu
+715,gpu4pyscf,A plugin to use Nvidia GPU in PySCF package,53,13,2023-12-22T22:02:56Z,https://github.com/pyscf/gpu4pyscf
+716,kobra,Research oriented game engine exploring state of the art rendering techniques,20,2,2023-06-16T05:50:14Z,https://github.com/vedavamadathil/kobra
+717,How_to_optimize_in_GPU,"This is a series of GPU optimization topics. Here we will introduce  how to optimize the CUDA kernel in detail.  I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. The performance of these kernels is basically at or near the theoretical limit.",496,88,2023-07-29T05:52:37Z,https://github.com/Liu-xiandong/How_to_optimize_in_GPU
+718,BGHT,BGHT: High-performance static GPU hash tables.,46,7,2023-11-18T06:34:49Z,https://github.com/owensgroup/BGHT
+719,TTP,"Test-Time Personalization with a Transformer for Human Pose Estimation, NeurIPS 2021",44,3,2021-10-23T08:46:55Z,https://github.com/harry11162/TTP
+720,DeepStream6.0_Yolov5-6.0,基于DeepStream6.0和yolov5-6.0的目标检测,15,7,2021-10-29T03:00:33Z,https://github.com/rscgg37248/DeepStream6.0_Yolov5-6.0
+721,CudaSteps,基于《cuda编程-基础与实践》（樊哲勇 著）的cuda学习之路。,125,30,2022-03-11T06:56:06Z,https://github.com/QINZHAOYU/CudaSteps
+722,CUDA_with_PyTorch,这个项目介绍了简单的CUDA入门，涉及到CUDA执行模型、线程层次、CUDA内存模型、核函数的编写方式以及PyTorch使用CUDA扩展的两种方式。通过该项目可以基本入门基于PyTorch的CUDA扩展的开发方式。,60,6,2021-11-12T14:33:18Z,https://github.com/ChambinLee/CUDA_with_PyTorch
+723,parallel_programming_study,"Study parallel programming - CUDA, OpenMP, MPI, Pthread",33,12,2022-07-03T08:16:04Z,https://github.com/junstar92/parallel_programming_study
+724,cudnn-learning-framework,A tiny learning framework built by cudnn and cublas.,18,3,2021-11-12T02:46:33Z,https://github.com/Hongqing-work/cudnn-learning-framework
+725,BAT,A GPU benchmark suite for autotuners,15,3,2023-06-23T10:21:38Z,https://github.com/NTNU-HPC-Lab/BAT
+726,CCD-GPU,Integration of broadphase & narrowphase algorithms implemented on GPU,13,2,2023-04-28T11:58:46Z,https://github.com/dbelgrod/CCD-GPU
+727,MicroSim,"MicroSim is a project under the National Supercomputing Mission, Govt of India. The project offers a set of codes that can use high performance computing to simulate microstructure evolution using the Phase Field technique. Follow us on LinkedIn: https://www.linkedin.com/company/microstructure-simulator/",12,2,2023-12-16T12:28:29Z,https://github.com/ICME-India/MicroSim
+728,MegBA,MegBA: A GPU-Based Distributed Library for Large-Scale Bundle Adjustment,398,54,2023-12-13T12:51:04Z,https://github.com/MegviiRobot/MegBA
+729,YHs_Sample,Yinghan's Code Sample,209,37,2022-07-25T20:04:52Z,https://github.com/Yinghan-Li/YHs_Sample
+730,cuda_sgemm,,77,25,2022-02-16T08:51:26Z,https://github.com/njuhope/cuda_sgemm
+731,DeltaCNN,,11,3,2022-06-26T16:11:32Z,https://github.com/dabeschte/DeltaCNN
+732,graphiler,Graphiler is a compiler stack built on top of DGL and TorchScript which compiles GNNs defined using user-defined functions (UDFs) into efficient execution plans.,51,5,2022-10-03T04:38:40Z,https://github.com/xiezhq-hermann/graphiler
+733,Structure-LTH,"[ICML 2022] ""Coarsening the Granularity: Towards Structurally Sparse Lottery Tickets"" by Tianlong Chen, Xuxi Chen, Xiaolong Ma, Yanzhi Wang, Zhangyang Wang.",24,6,2023-04-09T06:16:21Z,https://github.com/VITA-Group/Structure-LTH
+734,L_inf-dist-net-v2,[ICLR 2022] Training L_inf-dist-net with faster acceleration and better training strategies,20,3,2022-03-16T01:23:21Z,https://github.com/zbh2047/L_inf-dist-net-v2
+735,BlazePose_torch,pytorch implement of google blazePose,19,4,2022-02-17T10:42:31Z,https://github.com/WangChyanhassth-2say/BlazePose_torch
+736,GrabGPU,Grab GPU whenever available,235,28,2021-12-29T10:41:13Z,https://github.com/godweiyang/GrabGPU
+737,instant-ngp,Instant neural graphics primitives: lightning fast NeRF and more,14636,1818,2023-11-19T16:29:48Z,https://github.com/NVlabs/instant-ngp
+738,gpu-arch-microbenchmark,Dissecting NVIDIA GPU Architecture,38,13,2022-07-11T10:16:23Z,https://github.com/sjfeng1999/gpu-arch-microbenchmark
+739,learn_cuda,,28,6,2022-01-13T06:03:27Z,https://github.com/doorteeth/learn_cuda
+740,spark-rapids-jni,RAPIDS Accelerator JNI For Apache Spark,20,45,2023-12-22T03:35:58Z,https://github.com/NVIDIA/spark-rapids-jni
+741,CSC3150-Operating-System,one of my CSC courses in CUHK(SZ),17,2,2021-12-29T08:38:33Z,https://github.com/MoyuST/CSC3150-Operating-System
+742,CUDA-Bootcamp,CUDA Programming Practices,11,3,2022-02-02T16:23:05Z,https://github.com/imsanjoykb/CUDA-Bootcamp
+743,dietgpu,"GPU implementation of a fast generalized ANS (asymmetric numeral system) entropy encoder and decoder, with extensions for lossless compression of numerical and other data types in HPC/ML applications.",272,21,2023-10-04T01:13:48Z,https://github.com/facebookresearch/dietgpu
+744,DietCode,DietCode Code Release,52,10,2022-07-21T18:51:23Z,https://github.com/UofT-EcoSystem/DietCode
+745,OccuSeg,"This is the official code repository for OccuSeg, a state-of-the-art method for accurate joint 3D semantic and instance segmentation.",22,4,2022-03-02T03:07:46Z,https://github.com/THU-luvision/OccuSeg
+746,cuda-learning,cuda编程学习入门,18,4,2023-04-19T06:58:11Z,https://github.com/HuangCongQing/cuda-learning
+747,SAFT,SAFT: shotgun advancing front technique for massively parallel mesh generation on graphics processing unit,21,4,2023-05-29T00:16:29Z,https://github.com/zhouqingyi616/SAFT
+748,beampower,Package for beamforming/backprojection of seismic data on CPUs or GPUs.,15,3,2023-12-08T16:34:55Z,https://github.com/ebeauce/beampower
+749,GraphReg,Dynamical Point Cloud Registration with Geometry-aware graph signal processing,14,5,2023-02-02T09:38:58Z,https://github.com/zikai1/GraphReg
+750,RWKV-CUDA,The CUDA version of the RWKV language model ( https://github.com/BlinkDL/RWKV-LM ),165,30,2023-11-07T07:53:45Z,https://github.com/BlinkDL/RWKV-CUDA
+751,NVIDIA_SGEMM_PRACTICE,Step-by-step optimization of CUDA SGEMM,106,23,2022-03-30T23:56:15Z,https://github.com/wangzyon/NVIDIA_SGEMM_PRACTICE
+752,pytorch_grouped_gemm,High Performance Grouped GEMM in PyTorch,17,1,2022-05-10T14:28:06Z,https://github.com/Karbo123/pytorch_grouped_gemm
+753,INS-Conv,INS-Conv: Incremental Sparse Convolution for Online 3D Segmentation (CVPR 2022),56,8,2022-10-06T05:50:02Z,https://github.com/THU-luvision/INS-Conv
+754,DeltaCNN,DeltaCNN End-to-End CNN Inference of Sparse Frame Differences in Videos,55,5,2023-03-06T16:35:09Z,https://github.com/facebookresearch/DeltaCNN
+755,tv_layers_for_cv,[CVPR2022] Total Variation Optimization Layers for Computer Vision,43,2,2023-07-24T16:31:59Z,https://github.com/raymondyeh07/tv_layers_for_cv
+756,openmlsys-cuda,Tutorials for writing high-performance GPU operators in AI frameworks.,89,9,2023-08-12T14:47:36Z,https://github.com/openmlsys/openmlsys-cuda
+757,wholegraph,WholeGraph - large scale Graph Neutral Networks,50,21,2023-12-19T17:28:04Z,https://github.com/rapidsai/wholegraph
+758,CuMCubes,CUDA implementation of Marching Cubes for Python (Depends on torch),47,3,2023-11-24T01:26:43Z,https://github.com/lzhnb/CuMCubes
+759,CUDA_Programming,《CUDA编程基础与实践》一书的代码,31,8,2022-04-28T13:32:32Z,https://github.com/MAhaitao999/CUDA_Programming
+760,REDcuFHE,Multi-GPU acceleration for Fully Homomorphic Encryption,12,3,2023-03-07T18:24:59Z,https://github.com/TrustworthyComputing/REDcuFHE
+761,Compute-continuous-moments-de-ned-in-a-rectangular-region-using-CUDA-and-some-applications,,24,3,2022-05-25T00:17:21Z,https://github.com/HUI11126/Compute-continuous-moments-de-ned-in-a-rectangular-region-using-CUDA-and-some-applications
+762,My-First-CUDA-Code,"The introduction to cuda, a simple and easy cuda project",22,3,2022-05-09T03:58:12Z,https://github.com/xcyuyuyu/My-First-CUDA-Code
+763,SYCLomatic-test,,12,31,2023-12-22T07:31:54Z,https://github.com/oneapi-src/SYCLomatic-test
+764,dcgrid,DCGrid: An Adaptive Grid Structure for Memory-Constrained Fluid Simulation on the GPU,12,3,2023-02-24T16:31:44Z,https://github.com/wouterraateland/dcgrid
+765,reef,REEF is a GPU-accelerated DNN inference serving system that enables instant kernel preemption and biased concurrent execution in GPU scheduling. ,72,4,2022-12-24T14:49:00Z,https://github.com/SJTU-IPADS/reef
+766,cuda-sgemm,,29,15,2022-05-25T02:16:12Z,https://github.com/nicolaswilde/cuda-sgemm
+767,SwinTransformerV2_TensorRT,For 2022 Nvidia Hackathon,13,4,2022-06-28T03:21:50Z,https://github.com/lxl24/SwinTransformerV2_TensorRT
+768,mpi-acx,MPI accelerator-integrated communication extensions,31,4,2023-04-04T14:07:43Z,https://github.com/NVIDIA/mpi-acx
+769,ATOS,Multi-GPU dynamic scheduler using PGAS style cross-GPU communication,23,2,2023-07-23T07:38:43Z,https://github.com/owensgroup/ATOS
+770,GPUPowerTest,A utility for stressing GPUs by driving utilization (and thus power consumption) up and down in user-defined cycle intervals. It will also randomly drop power consumption down to idle and spike it back up,21,6,2023-05-10T18:45:18Z,https://github.com/NVIDIA/GPUPowerTest
+771,sppark,Zero-knowledge template library,138,46,2023-12-08T17:10:17Z,https://github.com/supranational/sppark
+772,HierarchicalKV,HierarchicalKV is a part of NVIDIA Merlin and provides hierarchical key-value storage to meet RecSys requirements.  The key capability of Merlin-KV is to store key-value feature-embeddings on high-bandwidth memory (HBM) of GPUs and in host memory.  It also can be used as a generic key-value storage.,92,20,2023-12-13T06:36:41Z,https://github.com/NVIDIA-Merlin/HierarchicalKV
+773,pytorch-cppcuda-tutorial,"tutorial for writing custom pytorch cpp+cuda kernel, applied on volume rendering (NeRF)",255,19,2023-04-17T04:48:54Z,https://github.com/kwea123/pytorch-cppcuda-tutorial
+774,smooth-sampler,Trilinear sampler with smoothstep and double backpropagation,35,2,2022-07-21T10:23:18Z,https://github.com/tymoteuszb/smooth-sampler
+775,HyTGraph,HyTGraph: GPU-Accelerated Graph Processing with Hybrid Transfer Management,13,2,2022-09-16T07:36:34Z,https://github.com/iDC-NEU/HyTGraph
+776,OpSparse,"Source code of the paper ""OpSparse: a Highly Optimized Framework for Sparse General Matrix Multiplication on GPUs""",12,1,2022-08-23T02:51:56Z,https://github.com/lorentzbf/OpSparse
+777,instant-DexNerf,Instant NeRF for depth/3d shape estimation of transparent objects,72,5,2023-02-03T13:33:19Z,https://github.com/salykovaa/instant-DexNerf
+778,HMFI,[ECCV2022] Homogeneous Multi-modal Feature Fusion and Interaction for 3D Object Detection,20,2,2022-07-22T10:14:20Z,https://github.com/sankin97/HMFI
+779,flash-cosine-sim-attention,Implementation of fused cosine similarity attention in the same style as Flash Attention,186,8,2023-02-13T18:26:24Z,https://github.com/lucidrains/flash-cosine-sim-attention
+780,raytracing,"A CUDA Mesh RayTracer with BVH acceleration, with python bindings and a GUI.",84,11,2022-08-12T14:38:51Z,https://github.com/ashawkey/raytracing
+781,array-language-comparisons,"A comparison of array languages & libraries: APL, J, BQN, Uiua, Q, Julia, R, NumPy, Nial, Futhark, Dex, Ivy, SaC & ArrayFire.",112,8,2023-10-26T14:27:02Z,https://github.com/codereport/array-language-comparisons
+782,cuda-tensorcore-hgemm,,65,18,2022-08-25T13:37:04Z,https://github.com/nicolaswilde/cuda-tensorcore-hgemm
+783,ECE408,,32,12,2023-12-04T18:17:48Z,https://github.com/aschuh703/ECE408
+784,MMDet3d-CenterPoint,"CenterPoint model trained with MMDetection3d on custom dataset, and deployed with TensorRT",25,8,2023-03-15T08:34:21Z,https://github.com/Tartisan/MMDet3d-CenterPoint
+785,SE-SSD-AI-TRT,"SE-SSD ALL IN TensorRT,NMS not implemented in TensorRT,implemented in c++",79,9,2022-09-12T14:31:57Z,https://github.com/jingyue202205/SE-SSD-AI-TRT
+786,tvm_gpu_gemm,play gemm with tvm,64,8,2023-07-22T07:01:02Z,https://github.com/LeiWang1999/tvm_gpu_gemm
+787,CIA-SSD-AI-TRT,"CIA-SSD ALL IN TensorRT,NMS not implemented in TensorRT,implemented in c++",21,5,2022-09-12T14:30:09Z,https://github.com/jingyue202205/CIA-SSD-AI-TRT
+788,Ambiguity-function-CUDA,This is  super fast ambiguity function created for NVIDIA cards with CUDA technology.,19,4,2023-06-04T15:51:29Z,https://github.com/DanielKami/Ambiguity-function-CUDA
+789,PoissonRecon_GPU,A cuda implementation of GPU Poisson Reconstruction.,12,1,2023-03-07T12:22:38Z,https://github.com/DavidXu-JJ/PoissonRecon_GPU
+790,Hands-on-GEMM,,59,8,2022-11-29T06:17:08Z,https://github.com/AyakaGEMM/Hands-on-GEMM
+791,DissectingTensorCores,,46,9,2022-11-24T14:11:29Z,https://github.com/sunlex0717/DissectingTensorCores
+792,cuda-tensorcores-register-mapping,,15,1,2022-10-03T16:30:00Z,https://github.com/ahennequ/cuda-tensorcores-register-mapping
+793,simsense,A Real-Time Depth Sensor Simulator with GPU Acceleration,12,3,2023-02-21T22:51:31Z,https://github.com/angli66/simsense
+794,NATTEN,Neighborhood Attention Extension. Bringing attention to a neighborhood near you!,186,13,2023-10-08T00:37:20Z,https://github.com/SHI-Labs/NATTEN
+795,Orbeez-SLAM,,161,13,2023-10-09T05:15:33Z,https://github.com/MarvinChung/Orbeez-SLAM
+796,BasicCUDA,,58,14,2023-11-22T03:32:50Z,https://github.com/CalvinXKY/BasicCUDA
+797,SortNet,[NeurIPS 2022] A novel 1-Lipschitz network that can be efficiently trained to achieve certified L-infinity robustness for free!,27,4,2022-10-25T07:41:37Z,https://github.com/zbh2047/SortNet
+798,z-prize-msm-gpu,Submission for https://www.zprize.io/prizes/accelerating-msm-operations-on-gpu-fpga,16,4,2023-02-21T14:28:48Z,https://github.com/matter-labs/z-prize-msm-gpu
+799,Professional-CUDA-C-Programming-Code-and-Notes,CUDA C 编程权威指南代码实现 包含了书上第二章到第八章的大部分代码实现和作者笔记，全由作者本人手动实现，难免有错误的地方，请大家谨慎参考，非常欢迎对错误的指正。 如果有帮助的话请Star一下，对作者帮助很大，谢谢！,160,9,2022-10-20T01:41:54Z,https://github.com/Eddie-Wang1120/Professional-CUDA-C-Programming-Code-and-Notes
+800,blender-ngp,NVIDIA's Instant-NeRF for Blender!,50,2,2022-12-04T20:57:36Z,https://github.com/JamesPerlman/blender-ngp
+801,SGEMM_CUDA,Fast CUDA matrix multiplication from scratch,173,21,2023-12-01T15:33:12Z,https://github.com/siboehm/SGEMM_CUDA
+802,bev_align_plugin,"A plugin to make view transformer from perspective view to bird-eye-view, it is used in bevdet ",13,2,2023-02-24T08:14:26Z,https://github.com/HaohaoNJU/bev_align_plugin
+803,NeuS2,Official code for NeuS2,487,28,2023-09-30T17:34:12Z,https://github.com/19reborn/NeuS2
+804,cubvh,CUDA Mesh BVH tools.,122,9,2023-11-07T02:35:37Z,https://github.com/ashawkey/cubvh
+805,kecmatch-gpu,Finds matching solidity function signatures using GPU,18,2,2023-02-15T18:36:03Z,https://github.com/iowar/kecmatch-gpu
+806,ALCFBeginnersGuide,,11,9,2023-07-18T18:24:26Z,https://github.com/argonne-lcf/ALCFBeginnersGuide
+807,cuZK,cuZK: An Efficient GPU Implemetation of zkSNARK,18,6,2023-09-19T07:14:51Z,https://github.com/speakspeak/cuZK
+808,YOLO_TRT_SIM,"高效部署：YOLO X, V3, V4, V5, V6, V7, V8, EdgeYOLO TRT推理 ™️  :top:  ,前后处理均由CUDA核函数实现 CPP/CUDA🚀",31,2,2023-02-23T15:52:39Z,https://github.com/cvdong/YOLO_TRT_SIM
+809,INT8-Flash-Attention-FMHA-Quantization,,121,13,2023-09-15T05:51:13Z,https://github.com/jundaf2/INT8-Flash-Attention-FMHA-Quantization
+810,permutohedral_encoding,Blazingly fast encoding for neural networks based on permutohedral lattices,84,9,2023-05-10T11:00:01Z,https://github.com/RaduAlexandru/permutohedral_encoding
+811,era-bellman-cuda,A library implementing GPU-accelerated cryptographic functionality for the zkSync prover,49,13,2023-12-22T02:02:05Z,https://github.com/matter-labs/era-bellman-cuda
+812,ChatGPTCode,Code samples generated by ChatGPT,18,5,2023-02-12T22:32:56Z,https://github.com/PlummersSoftwareLLC/ChatGPTCode
+813,infer,A new tensorrt integrate.,265,53,2023-04-02T07:15:15Z,https://github.com/shouxieai/infer
+814,pc2_cuda,CUDA implementation of Filecoin's PC2 operation,11,5,2023-06-20T02:48:03Z,https://github.com/supranational/pc2_cuda
+815,nerfshop,NeRFshop: Interactive Editing of Neural Radiance Fields,432,22,2023-03-27T10:06:52Z,https://github.com/graphdeco-inria/nerfshop
+816,mlp_maps,"Code for ""Representing Volumetric Videos as Dynamic MLP Maps"" CVPR 2023",224,10,2023-12-06T08:00:17Z,https://github.com/zju3dv/mlp_maps
+817,APD-MVS,APD-MVS is a MVS method which adopts adaptive patch deformation and an NCC-based matching metric. ,57,4,2023-11-30T01:16:24Z,https://github.com/whoiszzj/APD-MVS
+818,conv2d_direct,,14,4,2023-08-25T09:17:53Z,https://github.com/Pegessi/conv2d_direct
+819,Mnemonic-seed-generator-BIP-32-BIP-44-BIP-84,seed brute bitcoin wallet generator bitcoin wallet bruteforce mnemonic brute,12,4,2023-08-03T14:39:30Z,https://github.com/Crypt0hunter/Mnemonic-seed-generator-BIP-32-BIP-44-BIP-84
+820,ParticleNeRF,A particle-based encoding for Neural Radiance Fields,53,4,2023-03-31T04:20:29Z,https://github.com/jc211/ParticleNeRF
+821,MGG_OSDI23,Artifact for OSDI'23: MGG: Accelerating Graph Neural Networks with Fine-grained intra-kernel Communication-Computation Pipelining on Multi-GPU Platforms.,22,3,2023-05-21T14:48:18Z,https://github.com/YukeWang96/MGG_OSDI23
+822,Swin3D,A shift-window based transformer for 3D sparse tasks,129,8,2023-06-25T05:12:20Z,https://github.com/microsoft/Swin3D
+823,py_permuto_sdf,An unofficial Pytorch extension for occupancy grids and volume rendering in Permuto SDF (CVPR 2023),17,2,2023-04-28T02:30:39Z,https://github.com/jingsenzhu/py_permuto_sdf
+824,gSampler,,17,3,2023-10-06T11:45:28Z,https://github.com/gsampler9/gSampler
+825,tensorrt_scatter,TensorRT Plugin of corresponding PyTorch Scatter operators.,88,17,2023-05-03T08:55:18Z,https://github.com/wy17646051/tensorrt_scatter
+826,YOLOv8_Tensorrt,A simple implementation of Tensorrt YOLOv8,52,13,2023-04-24T05:46:31Z,https://github.com/Monday-Leo/YOLOv8_Tensorrt
+827,AutoGPTQ.tvm,GPTQ inference TVM kernel,31,1,2023-08-24T09:13:36Z,https://github.com/LeiWang1999/AutoGPTQ.tvm
+828,DABA,"Official implementation of ""Decentralization and Acceleration Enables Large-Scale Bundle Adjustment""",334,28,2023-07-28T17:28:38Z,https://github.com/facebookresearch/DABA
+829,cuSZp,,12,4,2023-11-18T07:14:27Z,https://github.com/szcompressor/cuSZp
+830,FastGEMV,"High-speed GEMV kernels, at most 2.7x speedup compared to pytorch baseline. ",41,2,2023-06-06T03:52:49Z,https://github.com/wangsiping97/FastGEMV
+831,cuda-image-preprocess,Speed up image preprocess with cuda when handle image or tensorrt inference,15,3,2023-10-19T01:31:23Z,https://github.com/emptysoal/cuda-image-preprocess

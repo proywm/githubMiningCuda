@@ -6,9 +6,10 @@ import re
 import datetime
 
 root_dir = "githubMiningCuda/analyzer"
-file_type = '.cu'
-published_commits = 0
-commit_counter = 0
+published_commits_patterns1 = 0
+published_commits_patterns2 = 0
+commit_counter_patterns1 = 0
+commit_counter_patterns2 = 0
 # Set the number of commits after which the result file will be pushed to GitHub
 buffer_size = 100
 
@@ -39,53 +40,60 @@ def search_patterns_in_commit_message(message, patterns):
             return True
     return False
 
-def analyze_repository(repo_url, patterns, output_csv_file):
-    global commit_counter
-    global published_commits
+def process_commit(commit, repo_url, commit_data, processed_commits, buffer_size, output_csv_file, commit_counter, published_commits):
+    print(f"Pattern found in commit {commit.hash}: {commit.msg}")
+    
+    for modification in commit.modified_files:
+        if modification.filename.endswith(('.cu', '.cuh', '.c', '.h', '.cpp', '.hpp')):
+            original_codes = []
+            modified_codes = []
+            modified_files = set()
+            
+            try:
+                original_codes.append(modification.source_code_before)
+                modified_codes.append(modification.source_code)
+                modified_files.add(modification.filename)
+            except ValueError as e:
+                print(f"Error processing commit {commit.hash}: {e}")
+                continue
+
+    commit_url = f"{repo_url}/commit/{commit.hash}"
+    commit_data.append([commit.project_name, commit_url, commit.insertions, commit.deletions, commit.lines, commit.files])
+    processed_commits.add(commit.hash)
+    commit_counter += 1
+    
+    if commit_counter % buffer_size == 0:
+        published_commits += buffer_size
+        write_commit_analysis_to_csv(output_csv_file, commit_data)
+        print(f"{commit_counter} commits are added")
+    
+    return commit_counter
+
+
+def analyze_repository(repo_url, patterns, output_csv_file_pattern1, patterns2=None, output_csv_file_pattern2=None):
+    global commit_counter_patterns1
+    global commit_counter_patterns2
+    global published_commits_patterns1
+    global published_commits_patterns2
     processed_commits = set()
-    commit_data = []
+    commit_data_patterns1 = []
+    commit_data_patterns2 = []
     #print(patterns)
     for commit in Repository(repo_url, only_modifications_with_file_types=['.cu', '.cuh', '.c', '.h', '.cpp', '.hpp']).traverse_commits():
         if commit.hash in processed_commits:
             continue  # Skip already processed commits
         modified_files_count = len(commit.modified_files)
-        if modified_files_count < 10 and search_patterns_in_commit_message(commit.msg, patterns):
-            print(f"Pattern found in commit {commit.hash}: {commit.msg}")
-            # store the commit message and source files
-            for modification in commit.modified_files:
-                if modification.filename.endswith(('.cu', '.cuh', '.c', '.h', '.cpp', '.hpp')):  # example for Python files
-                    original_codes = []
-                    modified_codes = []
-                    modified_files = set()  # Use a set to keep distinct file names
-                                        
-                    try:
-                        original_codes.append(modification.source_code_before)
-                        modified_codes.append(modification.source_code)
-                        modified_files.add(modification.filename)
-                    except ValueError as e:
-                        print(f"Error processing commit {commit.hash}: {e}")
-                        continue  # Continue with the next commit if an error occurs
-
-            # Construct the commit URL
-            commit_url = f"{repo_url}/commit/{commit.hash}"
-            commit_data.append([commit.project_name, commit_url, commit.insertions, commit.deletions, commit.lines, 
-                                 commit.files])
-            # commit_data.append([commit.project_name, commit_url, commit.insertions, commit.deletions, commit.lines, 
-            #                     commit.files, original_codes, modified_codes, list(modified_files)])
-            # commit_data.append([commit.project_name, commit_url, commit.hash, commit.msg, commit.committer_date, commit.author.name, commit.insertions, 
-            #                     commit.deletions, commit.lines, commit.files, modified_files, original_codes, modified_codes, methods_before, methods_after])
-            processed_commits.add(commit.hash)
-            commit_counter += 1
-            # Push interim commit analysis result to GitHub
-            if commit_counter % buffer_size == 0:
-                published_commits += buffer_size
-                write_commit_analysis_to_csv(output_csv_file, commit_data)
-                print(f"{commit_counter} commits are added")
+        if patterns and modified_files_count < 10 and search_patterns_in_commit_message(commit.msg, patterns):
+            commit_counter_patterns1 = process_commit(commit, repo_url, commit_data_patterns, processed_commits, buffer_size, output_csv_file_pattern1, commit_counter_patterns1, published_commits_patterns1)        
+        if patterns2 and modified_files_count < 10 and search_patterns_in_commit_message(commit.msg, patterns2):
+            commit_counter_patterns2 = process_commit(commit, repo_url, commit_data_patterns2, processed_commits, buffer_size, output_csv_file_pattern2, commit_counter_patterns2, published_commits_patterns2)
     # Ensure all commits are written to result file
     print(f"Total {commit_counter} commits found from the repository: {repo_url}")
-    if(commit_counter>published_commits):
-        write_commit_analysis_to_csv(output_csv_file, commit_data)
-    return commit_data
+    if(commit_counter_patterns1>published_commits_patterns1):
+        write_commit_analysis_to_csv(output_csv_file_pattern1, commit_data_patterns1)
+    if(commit_counter_patterns2>published_commits_patterns2):
+        write_commit_analysis_to_csv(output_csv_file_pattern2, commit_data_patterns2)
+    return commit_data_patterns1
 
 def roll_output_csv_file(output_csv_file, counter):
     # Incrementally name the new file
@@ -114,13 +122,16 @@ def main():
     repo_urls = read_repository_urls_from_csv(input_csv_file)
     print(repo_urls)
     # Specify the output file path inside the 'results' directory
-    output_csv_file = os.path.join(results_dir, f"github_repo_analysis_result_{date}_{host_ip}.csv")
-    patterns = load_patterns_from_csv(os.path.join(root_dir, f"patterns.csv"))
+    output_csv_file_patters1 = os.path.join(results_dir, f"github_repo_analysis_result_{date}_{host_ip}_p1.csv")
+    patterns1 = load_patterns_from_csv(os.path.join(root_dir, f"patterns.csv"))
+    
+    output_csv_file_patters2 = os.path.join(results_dir, f"github_repo_analysis_result_{date}_{host_ip}_p2.csv")
+    patterns2 = load_patterns_from_csv(os.path.join(root_dir, f"patterns2.csv"))
                                       
     for repo_url in repo_urls:
         # Analyze each repository and collect commit data
         print("Processing repo url: ", repo_url)
-        analyze_repository(repo_url, patterns, output_csv_file)
+        analyze_repository(repo_url, patterns1, output_csv_file_patters1,patterns2, output_csv_file_patters2)
 
 if __name__ == "__main__":
     main()

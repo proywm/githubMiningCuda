@@ -88,7 +88,7 @@ def analyze_repository(repo_url, patterns, output_csv_file_pattern1, patterns2=N
         if patterns2 and modified_files_count < 10 and search_patterns_in_commit_message(commit.msg, patterns2):
             commit_counter_patterns2 = process_commit(commit, repo_url, commit_data_patterns2, processed_commits, buffer_size, output_csv_file_pattern2, commit_counter_patterns2, published_commits_patterns2)
     # Ensure all commits are written to result file
-    print(f"Total {commit_counter} commits found from the repository: {repo_url}")
+    print(f"Total {commit_counter_patterns1} and {commit_counter_patterns1} commits found P1 and p2 respectively from the repository: {repo_url}")
     if(commit_counter_patterns1>published_commits_patterns1):
         write_commit_analysis_to_csv(output_csv_file_pattern1, commit_data_patterns1)
     if(commit_counter_patterns2>published_commits_patterns2):

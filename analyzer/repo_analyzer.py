@@ -43,19 +43,19 @@ def search_patterns_in_commit_message(message, patterns):
 def process_commit(commit, repo_url, commit_data, processed_commits, buffer_size, output_csv_file, commit_counter, published_commits):
     print(f"Pattern found in commit {commit.hash}: {commit.msg}")
     
-    for modification in commit.modified_files:
-        if modification.filename.endswith(('.cu', '.cuh', '.c', '.h', '.cpp', '.hpp')):
-            original_codes = []
-            modified_codes = []
-            modified_files = set()
+    # for modification in commit.modified_files:
+        # if modification.filename.endswith(('.cu', '.cuh', '.c', '.h', '.cpp', '.hpp')):
+        #     original_codes = []
+        #     modified_codes = []
+        #     modified_files = set()
             
-            try:
-                original_codes.append(modification.source_code_before)
-                modified_codes.append(modification.source_code)
-                modified_files.add(modification.filename)
-            except ValueError as e:
-                print(f"Error processing commit {commit.hash}: {e}")
-                continue
+        #     try:
+        #         original_codes.append(modification.source_code_before)
+        #         modified_codes.append(modification.source_code)
+        #         modified_files.add(modification.filename)
+        #     except ValueError as e:
+        #         print(f"Error processing commit {commit.hash}: {e}")
+        #         continue
 
     commit_url = f"{repo_url}/commit/{commit.hash}"
     commit_data.append([commit.project_name, commit_url, commit.insertions, commit.deletions, commit.lines, commit.files])
@@ -71,10 +71,10 @@ def process_commit(commit, repo_url, commit_data, processed_commits, buffer_size
 
 
 def analyze_repository(repo_url, patterns, output_csv_file_pattern1, patterns2=None, output_csv_file_pattern2=None):
-    global commit_counter_patterns1
-    global commit_counter_patterns2
-    global published_commits_patterns1
-    global published_commits_patterns2
+    #global commit_counter_patterns1
+    #global commit_counter_patterns2
+    #global published_commits_patterns1
+    #global published_commits_patterns2
     processed_commits = set()
     commit_data_patterns1 = []
     commit_data_patterns2 = []
@@ -84,7 +84,7 @@ def analyze_repository(repo_url, patterns, output_csv_file_pattern1, patterns2=N
             continue  # Skip already processed commits
         modified_files_count = len(commit.modified_files)
         if patterns and modified_files_count < 10 and search_patterns_in_commit_message(commit.msg, patterns):
-            commit_counter_patterns1 = process_commit(commit, repo_url, commit_data_patterns, processed_commits, buffer_size, output_csv_file_pattern1, commit_counter_patterns1, published_commits_patterns1)        
+            commit_counter_patterns1 = process_commit(commit, repo_url, commit_data_patterns1, processed_commits, buffer_size, output_csv_file_pattern1, commit_counter_patterns1, published_commits_patterns1)        
         if patterns2 and modified_files_count < 10 and search_patterns_in_commit_message(commit.msg, patterns2):
             commit_counter_patterns2 = process_commit(commit, repo_url, commit_data_patterns2, processed_commits, buffer_size, output_csv_file_pattern2, commit_counter_patterns2, published_commits_patterns2)
     # Ensure all commits are written to result file

@@ -71,10 +71,10 @@ def process_commit(commit, repo_url, commit_data, processed_commits, buffer_size
 
 
 def analyze_repository(repo_url, patterns, output_csv_file_pattern1, patterns2=None, output_csv_file_pattern2=None):
-    #global commit_counter_patterns1
-    #global commit_counter_patterns2
-    #global published_commits_patterns1
-    #global published_commits_patterns2
+    global commit_counter_patterns1
+    global commit_counter_patterns2
+    global published_commits_patterns1
+    global published_commits_patterns2
     processed_commits = set()
     commit_data_patterns1 = []
     commit_data_patterns2 = []
